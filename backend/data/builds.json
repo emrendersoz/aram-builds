@@ -1,0 +1,194 @@
+{
+  "Zed": {
+    "ugg_aram": {
+      "site": "U.GG",
+      "startingItems": [
+        "1036",
+        "3134"
+      ],
+      "coreItems": [
+        "6697",
+        "6696",
+        "3158"
+      ],
+      "item4Options": [
+        "6694",
+        "6692"
+      ],
+      "item5Options": [
+        "6694",
+        "3814",
+        "6692"
+      ],
+      "item6Options": [
+        "6694",
+        "3814",
+        "6699"
+      ],
+      "runes": {
+        "primary": [
+          "8100"
+        ],
+        "secondary": [
+          "8200"
+        ],
+        "keystone": [
+          "8112"
+        ]
+      },
+      "spells": [
+        "4",
+        "32"
+      ]
+    },
+    "metasrc_aram": {
+      "site": "MetaSRC",
+      "runes": {
+        "primary": [
+          "8100"
+        ],
+        "secondary": [
+          "8000"
+        ],
+        "keystone": [
+          "8128"
+        ]
+      },
+      "spells": [
+        "4",
+        "32"
+      ],
+      "startingItems": [
+        "1036",
+        "1001",
+        "2022",
+        "2003"
+      ],
+      "coreItems": [
+        "126697",
+        "3158",
+        "6692",
+        "6676",
+        "6696",
+        "6694"
+      ],
+      "item4Options": [],
+      "item5Options": [],
+      "item6Options": []
+    },
+    "lolalytics_aram": {
+      "site": "Lolalytics",
+      "spells": [
+        "4",
+        "32"
+      ],
+      "runes": {
+        "primary": [
+          "8100"
+        ],
+        "keystone": [
+          "8128"
+        ],
+        "secondary": [
+          "8000"
+        ]
+      },
+      "startingItems": [
+        "1036",
+        "3134"
+      ],
+      "coreItems": [
+        "126697",
+        "3158",
+        "6696"
+      ],
+      "item4Options": [
+        "6694",
+        "6692"
+      ],
+      "item5Options": [
+        "6694",
+        "3814",
+        "6692"
+      ],
+      "item6Options": [
+        "3814",
+        "6694",
+        "6699"
+      ]
+    },
+    "murderbridge_aram": {
+      "site": "Murderbridge",
+      "spells": [
+        "SummonerSnowball",
+        "SummonerFlash"
+      ],
+      "runes": {
+        "keystone": [
+          "8010"
+        ],
+        "primary": [
+          "8000"
+        ],
+        "secondary": [
+          "8200"
+        ]
+      },
+      "startingItems": [
+        "1036",
+        "3134"
+      ],
+      "coreItems": [
+        "126697",
+        "3111",
+        "6692"
+      ],
+      "item4Options": [
+        "6694",
+        "6676",
+        "6696"
+      ],
+      "item5Options": [
+        "6694",
+        "3814",
+        "3156"
+      ],
+      "item6Options": [
+        "3814",
+        "6699",
+        "6694"
+      ]
+    },
+    "mobalytics_aram": {
+      "site": "Mobalytics",
+      "runes": {
+        "primary": [
+          "8100"
+        ],
+        "secondary": [
+          "8000"
+        ],
+        "keystone": [
+          "8112"
+        ]
+      },
+      "spells": [
+        "SummonerSnowball",
+        "SummonerFlash"
+      ],
+      "startingItems": [
+        "3134",
+        "1036",
+        "2003"
+      ],
+      "coreItems": [
+        "6676",
+        "3158",
+        "6692",
+        "6694",
+        "3814",
+        "6699"
+      ]
+    }
+  }
+}

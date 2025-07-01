@@ -1,0 +1,337 @@
+.rune-sprite {
+  background-image: url('rune-sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 292px 292px;
+}
+
+.rune-8000 {
+  background-position: -216px -0px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8005 {
+  background-position: -0px -0px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8008 {
+  background-position: -54px -0px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8009 {
+  background-position: -216px -26px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8010 {
+  background-position: -0px -54px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8014 {
+  background-position: -216px -52px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8017 {
+  background-position: -216px -78px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8021 {
+  background-position: -54px -54px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8100 {
+  background-position: -216px -104px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8105 {
+  background-position: -216px -130px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8106 {
+  background-position: -216px -156px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8112 {
+  background-position: -108px -0px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8126 {
+  background-position: -216px -182px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8128 {
+  background-position: -108px -54px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8135 {
+  background-position: -0px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8137 {
+  background-position: -26px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8139 {
+  background-position: -52px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8140 {
+  background-position: -78px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8141 {
+  background-position: -104px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8143 {
+  background-position: -130px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8200 {
+  background-position: -156px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8210 {
+  background-position: -182px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8214 {
+  background-position: -0px -108px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8224 {
+  background-position: -208px -216px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8226 {
+  background-position: -242px -0px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8229 {
+  background-position: -54px -108px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8230 {
+  background-position: -108px -108px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8232 {
+  background-position: -242px -26px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8233 {
+  background-position: -242px -52px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8234 {
+  background-position: -242px -78px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8236 {
+  background-position: -242px -104px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8237 {
+  background-position: -242px -130px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8242 {
+  background-position: -242px -156px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8275 {
+  background-position: -242px -182px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8299 {
+  background-position: -242px -208px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8300 {
+  background-position: -0px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8304 {
+  background-position: -26px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8306 {
+  background-position: -52px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8313 {
+  background-position: -78px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8316 {
+  background-position: -104px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8321 {
+  background-position: -130px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8345 {
+  background-position: -156px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8347 {
+  background-position: -182px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8351 {
+  background-position: -162px -0px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8352 {
+  background-position: -208px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8360 {
+  background-position: -162px -54px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8369 {
+  background-position: -162px -108px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8400 {
+  background-position: -234px -242px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8401 {
+  background-position: -268px -0px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8410 {
+  background-position: -268px -26px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8429 {
+  background-position: -268px -52px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8437 {
+  background-position: -0px -162px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8439 {
+  background-position: -54px -162px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8444 {
+  background-position: -268px -78px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8446 {
+  background-position: -268px -104px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8451 {
+  background-position: -268px -130px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8453 {
+  background-position: -268px -156px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8463 {
+  background-position: -268px -182px;
+  width: 24px;
+  height: 24px;
+}
+.rune-8465 {
+  background-position: -108px -162px;
+  width: 52px;
+  height: 52px;
+}
+.rune-8473 {
+  background-position: -268px -208px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9101 {
+  background-position: -268px -234px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9103 {
+  background-position: -0px -268px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9104 {
+  background-position: -26px -268px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9105 {
+  background-position: -52px -268px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9111 {
+  background-position: -78px -268px;
+  width: 24px;
+  height: 24px;
+}
+.rune-9923 {
+  background-position: -162px -162px;
+  width: 52px;
+  height: 52px;
+}
