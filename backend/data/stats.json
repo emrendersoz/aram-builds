@@ -1,0 +1,1692 @@
+{
+  "Aatrox": {
+    "site": "U.GG",
+    "champion": "aatrox",
+    "tier": "C",
+    "winRate": "48.05%",
+    "rank": "123/170",
+    "pickRate": "5.3%",
+    "banRate": "-",
+    "matches": "33,610"
+  },
+  "Ahri": {
+    "site": "U.GG",
+    "champion": "ahri",
+    "tier": "B",
+    "winRate": "49.99%",
+    "rank": "90/170",
+    "pickRate": "11.8%",
+    "banRate": "-",
+    "matches": "75,625"
+  },
+  "Akali": {
+    "site": "U.GG",
+    "champion": "akali",
+    "tier": "D",
+    "winRate": "43.79%",
+    "rank": "165/170",
+    "pickRate": "6.2%",
+    "banRate": "-",
+    "matches": "39,432"
+  },
+  "Akshan": {
+    "site": "U.GG",
+    "champion": "akshan",
+    "tier": "B",
+    "winRate": "49.09%",
+    "rank": "110/170",
+    "pickRate": "4.8%",
+    "banRate": "-",
+    "matches": "31,397"
+  },
+  "Alistar": {
+    "site": "U.GG",
+    "champion": "alistar",
+    "tier": "A",
+    "winRate": "50.93%",
+    "rank": "68/170",
+    "pickRate": "3.6%",
+    "banRate": "-",
+    "matches": "22,973"
+  },
+  "Ambessa": {
+    "site": "U.GG",
+    "champion": "ambessa",
+    "tier": "C",
+    "winRate": "46.42%",
+    "rank": "146/170",
+    "pickRate": "2.7%",
+    "banRate": "-",
+    "matches": "17,452"
+  },
+  "Amumu": {
+    "site": "U.GG",
+    "champion": "amumu",
+    "tier": "A",
+    "winRate": "50.41%",
+    "rank": "79/170",
+    "pickRate": "5.8%",
+    "banRate": "-",
+    "matches": "36,782"
+  },
+  "Anivia": {
+    "site": "U.GG",
+    "champion": "anivia",
+    "tier": "C",
+    "winRate": "48.47%",
+    "rank": "114/170",
+    "pickRate": "6.3%",
+    "banRate": "-",
+    "matches": "39,915"
+  },
+  "Annie": {
+    "site": "U.GG",
+    "champion": "annie",
+    "tier": "A",
+    "winRate": "50.23%",
+    "rank": "81/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,171"
+  },
+  "Aphelios": {
+    "site": "U.GG",
+    "champion": "aphelios",
+    "tier": "A",
+    "winRate": "51.49%",
+    "rank": "53/170",
+    "pickRate": "4.8%",
+    "banRate": "-",
+    "matches": "30,696"
+  },
+  "Ashe": {
+    "site": "U.GG",
+    "champion": "ashe",
+    "tier": "S+",
+    "winRate": "53.25%",
+    "rank": "14/170",
+    "pickRate": "13.2%",
+    "banRate": "-",
+    "matches": "84,303"
+  },
+  "AurelionSol": {
+    "site": "U.GG",
+    "champion": "aurelionsol",
+    "tier": "B",
+    "winRate": "49.99%",
+    "rank": "91/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,146"
+  },
+  "Aurora": {
+    "site": "U.GG",
+    "champion": "aurora",
+    "tier": "A",
+    "winRate": "50.16%",
+    "rank": "86/170",
+    "pickRate": "5.2%",
+    "banRate": "-",
+    "matches": "33,255"
+  },
+  "Azir": {
+    "site": "U.GG",
+    "champion": "azir",
+    "tier": "D",
+    "winRate": "46.05%",
+    "rank": "149/170",
+    "pickRate": "3.5%",
+    "banRate": "-",
+    "matches": "22,063"
+  },
+  "Bard": {
+    "site": "U.GG",
+    "champion": "bard",
+    "tier": "D",
+    "winRate": "45.76%",
+    "rank": "151/170",
+    "pickRate": "3.9%",
+    "banRate": "-",
+    "matches": "24,707"
+  },
+  "Belveth": {
+    "site": "U.GG",
+    "champion": "belveth",
+    "tier": "A",
+    "winRate": "50.78%",
+    "rank": "69/170",
+    "pickRate": "1.8%",
+    "banRate": "-",
+    "matches": "11,564"
+  },
+  "Blitzcrank": {
+    "site": "U.GG",
+    "champion": "blitzcrank",
+    "tier": "B",
+    "winRate": "49.43%",
+    "rank": "105/170",
+    "pickRate": "9.5%",
+    "banRate": "-",
+    "matches": "61,480"
+  },
+  "Brand": {
+    "site": "U.GG",
+    "champion": "brand",
+    "tier": "S+",
+    "winRate": "53.16%",
+    "rank": "16/170",
+    "pickRate": "12.1%",
+    "banRate": "-",
+    "matches": "77,063"
+  },
+  "Braum": {
+    "site": "U.GG",
+    "champion": "braum",
+    "tier": "A",
+    "winRate": "52.62%",
+    "rank": "26/170",
+    "pickRate": "4.6%",
+    "banRate": "-",
+    "matches": "29,171"
+  },
+  "Briar": {
+    "site": "U.GG",
+    "champion": "briar",
+    "tier": "A",
+    "winRate": "50.67%",
+    "rank": "74/170",
+    "pickRate": "3.1%",
+    "banRate": "-",
+    "matches": "19,902"
+  },
+  "Caitlyn": {
+    "site": "U.GG",
+    "champion": "caitlyn",
+    "tier": "S",
+    "winRate": "51.56%",
+    "rank": "51/170",
+    "pickRate": "14.2%",
+    "banRate": "-",
+    "matches": "92,034"
+  },
+  "Camille": {
+    "site": "U.GG",
+    "champion": "camille",
+    "tier": "B",
+    "winRate": "46.43%",
+    "rank": "146/170",
+    "pickRate": "1.4%",
+    "banRate": "-",
+    "matches": "9,087"
+  },
+  "Cassiopeia": {
+    "site": "U.GG",
+    "champion": "cassiopeia",
+    "tier": "D",
+    "winRate": "46.76%",
+    "rank": "141/170",
+    "pickRate": "4.2%",
+    "banRate": "-",
+    "matches": "27,158"
+  },
+  "Chogath": {
+    "site": "U.GG",
+    "champion": "chogath",
+    "tier": "S",
+    "winRate": "51.67%",
+    "rank": "48/170",
+    "pickRate": "9.5%",
+    "banRate": "-",
+    "matches": "61,831"
+  },
+  "Corki": {
+    "site": "U.GG",
+    "champion": "corki",
+    "tier": "D",
+    "winRate": "46.45%",
+    "rank": "145/170",
+    "pickRate": "4.2%",
+    "banRate": "-",
+    "matches": "26,952"
+  },
+  "Darius": {
+    "site": "U.GG",
+    "champion": "darius",
+    "tier": "A",
+    "winRate": "50.19%",
+    "rank": "84/170",
+    "pickRate": "6.2%",
+    "banRate": "-",
+    "matches": "40,451"
+  },
+  "Diana": {
+    "site": "U.GG",
+    "champion": "diana",
+    "tier": "B",
+    "winRate": "49.88%",
+    "rank": "93/170",
+    "pickRate": "4.6%",
+    "banRate": "-",
+    "matches": "29,077"
+  },
+  "Draven": {
+    "site": "U.GG",
+    "champion": "draven",
+    "tier": "D",
+    "winRate": "45.16%",
+    "rank": "156/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,287"
+  },
+  "DrMundo": {
+    "site": "U.GG",
+    "champion": "drmundo",
+    "tier": "S",
+    "winRate": "52.75%",
+    "rank": "21/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,508"
+  },
+  "Ekko": {
+    "site": "U.GG",
+    "champion": "ekko",
+    "tier": "C",
+    "winRate": "47.97%",
+    "rank": "125/170",
+    "pickRate": "5.5%",
+    "banRate": "-",
+    "matches": "35,721"
+  },
+  "Elise": {
+    "site": "U.GG",
+    "champion": "elise",
+    "tier": "B",
+    "winRate": "47.03%",
+    "rank": "136/170",
+    "pickRate": "2.1%",
+    "banRate": "-",
+    "matches": "13,395"
+  },
+  "Evelynn": {
+    "site": "U.GG",
+    "champion": "evelynn",
+    "tier": "C",
+    "winRate": "46.11%",
+    "rank": "148/170",
+    "pickRate": "2.1%",
+    "banRate": "-",
+    "matches": "13,693"
+  },
+  "Ezreal": {
+    "site": "U.GG",
+    "champion": "ezreal",
+    "tier": "D",
+    "winRate": "47.89%",
+    "rank": "127/170",
+    "banRate": "-",
+    "matches": "84,217"
+  },
+  "Fiddlesticks": {
+    "site": "U.GG",
+    "champion": "fiddlesticks",
+    "tier": "S",
+    "winRate": "53.36%",
+    "rank": "13/170",
+    "pickRate": "5.9%",
+    "banRate": "-",
+    "matches": "38,429"
+  },
+  "Fiora": {
+    "site": "U.GG",
+    "champion": "fiora",
+    "tier": "B",
+    "winRate": "45.58%",
+    "rank": "153/170",
+    "pickRate": "1.8%",
+    "banRate": "-",
+    "matches": "11,440"
+  },
+  "Fizz": {
+    "site": "U.GG",
+    "champion": "fizz",
+    "tier": "D",
+    "winRate": "46.84%",
+    "rank": "138/170",
+    "pickRate": "5.3%",
+    "banRate": "-",
+    "matches": "33,852"
+  },
+  "Galio": {
+    "site": "U.GG",
+    "champion": "galio",
+    "tier": "S",
+    "winRate": "53.37%",
+    "rank": "12/170",
+    "pickRate": "5.1%",
+    "banRate": "-",
+    "matches": "32,787"
+  },
+  "Gangplank": {
+    "site": "U.GG",
+    "champion": "gangplank",
+    "tier": "B",
+    "winRate": "50.03%",
+    "rank": "89/170",
+    "pickRate": "4.8%",
+    "banRate": "-",
+    "matches": "31,121"
+  },
+  "Garen": {
+    "site": "U.GG",
+    "champion": "garen",
+    "tier": "C",
+    "winRate": "48.56%",
+    "rank": "113/170",
+    "pickRate": "5.6%",
+    "banRate": "-",
+    "matches": "36,570"
+  },
+  "Gnar": {
+    "site": "U.GG",
+    "champion": "gnar",
+    "tier": "A",
+    "winRate": "52.63%",
+    "rank": "25/170",
+    "pickRate": "3.1%",
+    "banRate": "-",
+    "matches": "20,018"
+  },
+  "Gragas": {
+    "site": "U.GG",
+    "champion": "gragas",
+    "tier": "C",
+    "winRate": "48.19%",
+    "rank": "121/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "29,400"
+  },
+  "Graves": {
+    "site": "U.GG",
+    "champion": "graves",
+    "tier": "D",
+    "winRate": "45.77%",
+    "rank": "151/170",
+    "pickRate": "6.7%",
+    "banRate": "-",
+    "matches": "43,521"
+  },
+  "Gwen": {
+    "site": "U.GG",
+    "champion": "gwen",
+    "tier": "C",
+    "winRate": "45.64%",
+    "rank": "152/170",
+    "pickRate": "2.5%",
+    "banRate": "-",
+    "matches": "16,199"
+  },
+  "Hecarim": {
+    "site": "U.GG",
+    "champion": "hecarim",
+    "tier": "B",
+    "winRate": "44.99%",
+    "rank": "159/170",
+    "pickRate": "1.4%",
+    "banRate": "-",
+    "matches": "8,927"
+  },
+  "Heimerdinger": {
+    "site": "U.GG",
+    "champion": "heimerdinger",
+    "tier": "S",
+    "winRate": "54.06%",
+    "rank": "3/170",
+    "pickRate": "5.6%",
+    "banRate": "-",
+    "matches": "36,232"
+  },
+  "Hwei": {
+    "site": "U.GG",
+    "champion": "hwei",
+    "tier": "A",
+    "winRate": "51.76%",
+    "rank": "45/170",
+    "pickRate": "6.7%",
+    "banRate": "-",
+    "matches": "43,227"
+  },
+  "Illaoi": {
+    "site": "U.GG",
+    "champion": "illaoi",
+    "tier": "A",
+    "winRate": "52.95%",
+    "rank": "19/170",
+    "pickRate": "3.8%",
+    "banRate": "-",
+    "matches": "24,576"
+  },
+  "Irelia": {
+    "site": "U.GG",
+    "champion": "irelia",
+    "tier": "A",
+    "winRate": "51.18%",
+    "rank": "59/170",
+    "pickRate": "3.8%",
+    "banRate": "-",
+    "matches": "24,518"
+  },
+  "Ivern": {
+    "site": "U.GG",
+    "champion": "ivern",
+    "tier": "A",
+    "winRate": "52.32%",
+    "rank": "32/170",
+    "pickRate": "2.3%",
+    "banRate": "-",
+    "matches": "14,668"
+  },
+  "Janna": {
+    "site": "U.GG",
+    "champion": "janna",
+    "tier": "A",
+    "winRate": "52.02%",
+    "rank": "39/170",
+    "pickRate": "6.1%",
+    "banRate": "-",
+    "matches": "39,458"
+  },
+  "JarvanIV": {
+    "site": "U.GG",
+    "champion": "jarvaniv",
+    "tier": "C",
+    "winRate": "47.92%",
+    "rank": "126/170",
+    "pickRate": "4.6%",
+    "banRate": "-",
+    "matches": "29,674"
+  },
+  "Jax": {
+    "site": "U.GG",
+    "champion": "jax",
+    "tier": "A",
+    "winRate": "51.46%",
+    "rank": "54/170",
+    "banRate": "-",
+    "matches": "32,312"
+  },
+  "Jayce": {
+    "site": "U.GG",
+    "champion": "jayce",
+    "tier": "D",
+    "winRate": "46.51%",
+    "rank": "143/170",
+    "pickRate": "5.6%",
+    "banRate": "-",
+    "matches": "36,541"
+  },
+  "Jhin": {
+    "site": "U.GG",
+    "champion": "jhin",
+    "tier": "S",
+    "winRate": "52.17%",
+    "rank": "36/170",
+    "pickRate": "13.9%",
+    "banRate": "-",
+    "matches": "89,991"
+  },
+  "Jinx": {
+    "site": "U.GG",
+    "champion": "jinx",
+    "tier": "S+",
+    "winRate": "52.86%",
+    "rank": "20/170",
+    "pickRate": "13.6%",
+    "banRate": "-",
+    "matches": "87,760"
+  },
+  "Kaisa": {
+    "site": "U.GG",
+    "champion": "kaisa",
+    "tier": "D",
+    "winRate": "46.78%",
+    "rank": "140/170",
+    "pickRate": "10.9%",
+    "banRate": "-",
+    "matches": "70,662"
+  },
+  "Kalista": {
+    "site": "U.GG",
+    "champion": "kalista",
+    "tier": "B",
+    "winRate": "50.08%",
+    "rank": "88/170",
+    "pickRate": "3.5%",
+    "banRate": "-",
+    "matches": "22,881"
+  },
+  "Karma": {
+    "site": "U.GG",
+    "champion": "karma",
+    "tier": "D",
+    "winRate": "48.15%",
+    "rank": "122/170",
+    "pickRate": "9.2%",
+    "banRate": "-",
+    "matches": "59,495"
+  },
+  "Karthus": {
+    "site": "U.GG",
+    "champion": "karthus",
+    "tier": "A",
+    "winRate": "51.23%",
+    "rank": "58/170",
+    "pickRate": "6.3%",
+    "banRate": "-",
+    "matches": "40,470"
+  },
+  "Kassadin": {
+    "site": "U.GG",
+    "champion": "kassadin",
+    "tier": "D",
+    "winRate": "42.32%",
+    "rank": "170/170",
+    "pickRate": "1.9%",
+    "banRate": "-",
+    "matches": "12,470"
+  },
+  "Katarina": {
+    "site": "U.GG",
+    "champion": "katarina",
+    "tier": "D",
+    "winRate": "44.25%",
+    "rank": "163/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,620"
+  },
+  "Kayle": {
+    "site": "U.GG",
+    "champion": "kayle",
+    "tier": "S",
+    "winRate": "52.98%",
+    "rank": "18/170",
+    "pickRate": "8.7%",
+    "banRate": "-",
+    "matches": "56,287"
+  },
+  "Kayn": {
+    "site": "U.GG",
+    "champion": "kayn",
+    "tier": "D",
+    "winRate": "46.47%",
+    "rank": "145/170",
+    "pickRate": "4.1%",
+    "banRate": "-",
+    "matches": "26,426"
+  },
+  "Kennen": {
+    "site": "U.GG",
+    "champion": "kennen",
+    "tier": "B",
+    "winRate": "49.63%",
+    "rank": "97/170",
+    "pickRate": "3.9%",
+    "banRate": "-",
+    "matches": "25,174"
+  },
+  "Khazix": {
+    "site": "U.GG",
+    "champion": "khazix",
+    "tier": "D",
+    "winRate": "42.68%",
+    "rank": "167/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "29,418"
+  },
+  "Kindred": {
+    "site": "U.GG",
+    "champion": "kindred",
+    "tier": "B",
+    "winRate": "49.49%",
+    "rank": "104/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "29,142"
+  },
+  "Kled": {
+    "site": "U.GG",
+    "champion": "kled",
+    "tier": "B",
+    "winRate": "48.09%",
+    "rank": "124/170",
+    "pickRate": "0.9%",
+    "banRate": "-",
+    "matches": "5,718"
+  },
+  "KogMaw": {
+    "site": "U.GG",
+    "champion": "kogmaw",
+    "tier": "S",
+    "winRate": "52.74%",
+    "rank": "22/170",
+    "pickRate": "5.9%",
+    "banRate": "-",
+    "matches": "38,180"
+  },
+  "KSante": {
+    "site": "U.GG",
+    "champion": "ksante",
+    "tier": "D",
+    "winRate": "45.05%",
+    "rank": "158/170",
+    "pickRate": "2.6%",
+    "banRate": "-",
+    "matches": "16,726"
+  },
+  "Leblanc": {
+    "site": "U.GG",
+    "champion": "leblanc",
+    "tier": "D",
+    "winRate": "42.46%",
+    "rank": "169/170",
+    "pickRate": "6.8%",
+    "banRate": "-",
+    "matches": "43,760"
+  },
+  "LeeSin": {
+    "site": "U.GG",
+    "champion": "leesin",
+    "tier": "D",
+    "winRate": "45.29%",
+    "rank": "155/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,480"
+  },
+  "Leona": {
+    "site": "U.GG",
+    "champion": "leona",
+    "tier": "S",
+    "winRate": "52.18%",
+    "rank": "35/170",
+    "pickRate": "6.2%",
+    "banRate": "-",
+    "matches": "39,824"
+  },
+  "Lillia": {
+    "site": "U.GG",
+    "champion": "lillia",
+    "tier": "B",
+    "winRate": "49.13%",
+    "rank": "108/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "29,352"
+  },
+  "Lissandra": {
+    "site": "U.GG",
+    "champion": "lissandra",
+    "tier": "A",
+    "winRate": "51.16%",
+    "rank": "60/170",
+    "banRate": "-",
+    "matches": "32,526"
+  },
+  "Lucian": {
+    "site": "U.GG",
+    "champion": "lucian",
+    "tier": "D",
+    "winRate": "47.3%",
+    "rank": "133/170",
+    "pickRate": "10.7%",
+    "banRate": "-",
+    "matches": "69,478"
+  },
+  "Lulu": {
+    "site": "U.GG",
+    "champion": "lulu",
+    "tier": "D",
+    "winRate": "47.29%",
+    "rank": "134/170",
+    "pickRate": "6.4%",
+    "banRate": "-",
+    "matches": "41,759"
+  },
+  "Lux": {
+    "site": "U.GG",
+    "champion": "lux",
+    "tier": "S+",
+    "winRate": "53.49%",
+    "rank": "11/170",
+    "pickRate": "14.2%",
+    "banRate": "-",
+    "matches": "91,948"
+  },
+  "Malphite": {
+    "site": "U.GG",
+    "champion": "malphite",
+    "tier": "B",
+    "winRate": "49.57%",
+    "rank": "100/170",
+    "pickRate": "10.2%",
+    "banRate": "-",
+    "matches": "66,229"
+  },
+  "Malzahar": {
+    "site": "U.GG",
+    "champion": "malzahar",
+    "tier": "S",
+    "winRate": "53.69%",
+    "rank": "7/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,794"
+  },
+  "Maokai": {
+    "site": "U.GG",
+    "champion": "maokai",
+    "tier": "S",
+    "winRate": "53.7%",
+    "rank": "6/170",
+    "pickRate": "6.3%",
+    "banRate": "-",
+    "matches": "40,749"
+  },
+  "MasterYi": {
+    "site": "U.GG",
+    "champion": "masteryi",
+    "tier": "A",
+    "winRate": "50.28%",
+    "rank": "80/170",
+    "pickRate": "5.2%",
+    "banRate": "-",
+    "matches": "33,942"
+  },
+  "Mel": {
+    "site": "U.GG",
+    "champion": "mel",
+    "tier": "A",
+    "winRate": "50.2%",
+    "rank": "83/170",
+    "pickRate": "10.2%",
+    "banRate": "-",
+    "matches": "66,124"
+  },
+  "Milio": {
+    "site": "U.GG",
+    "champion": "milio",
+    "tier": "A",
+    "winRate": "52.52%",
+    "rank": "28/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "28,918"
+  },
+  "MissFortune": {
+    "site": "U.GG",
+    "champion": "missfortune",
+    "tier": "S",
+    "winRate": "50.96%",
+    "rank": "68/170",
+    "pickRate": "14.2%",
+    "banRate": "-",
+    "matches": "92,152"
+  },
+  "MonkeyKing": {
+    "site": "U.GG",
+    "champion": "wukong",
+    "tier": "A",
+    "winRate": "51.87%",
+    "rank": "43/170",
+    "pickRate": "4.4%",
+    "banRate": "-",
+    "matches": "28,608"
+  },
+  "Mordekaiser": {
+    "site": "U.GG",
+    "champion": "mordekaiser",
+    "tier": "A",
+    "winRate": "51.44%",
+    "rank": "55/170",
+    "pickRate": "7.5%",
+    "banRate": "-",
+    "matches": "48,250"
+  },
+  "Morgana": {
+    "site": "U.GG",
+    "champion": "morgana",
+    "tier": "S+",
+    "winRate": "53.23%",
+    "rank": "15/170",
+    "pickRate": "13.4%",
+    "banRate": "-",
+    "matches": "86,694"
+  },
+  "Naafiri": {
+    "site": "U.GG",
+    "champion": "naafiri",
+    "tier": "D",
+    "winRate": "44.63%",
+    "rank": "162/170",
+    "pickRate": "3.1%",
+    "banRate": "-",
+    "matches": "19,806"
+  },
+  "Nami": {
+    "site": "U.GG",
+    "champion": "nami",
+    "tier": "S",
+    "winRate": "52.67%",
+    "rank": "24/170",
+    "pickRate": "5.9%",
+    "banRate": "-",
+    "matches": "38,302"
+  },
+  "Nasus": {
+    "site": "U.GG",
+    "champion": "nasus",
+    "tier": "A",
+    "winRate": "51.05%",
+    "rank": "64/170",
+    "pickRate": "3.7%",
+    "banRate": "-",
+    "matches": "24,092"
+  },
+  "Nautilus": {
+    "site": "U.GG",
+    "champion": "nautilus",
+    "tier": "S",
+    "winRate": "51.69%",
+    "rank": "47/170",
+    "pickRate": "8.3%",
+    "banRate": "-",
+    "matches": "54,026"
+  },
+  "Neeko": {
+    "site": "U.GG",
+    "champion": "neeko",
+    "tier": "A",
+    "winRate": "50.5%",
+    "rank": "77/170",
+    "pickRate": "8.3%",
+    "banRate": "-",
+    "matches": "53,676"
+  },
+  "Nidalee": {
+    "site": "U.GG",
+    "champion": "nidalee",
+    "tier": "B",
+    "winRate": "49.57%",
+    "rank": "101/170",
+    "pickRate": "10.5%",
+    "banRate": "-",
+    "matches": "67,905"
+  },
+  "Nilah": {
+    "site": "U.GG",
+    "champion": "nilah",
+    "tier": "A",
+    "winRate": "52.99%",
+    "rank": "17/170",
+    "pickRate": "2.3%",
+    "banRate": "-",
+    "matches": "15,138"
+  },
+  "Nocturne": {
+    "site": "U.GG",
+    "champion": "nocturne",
+    "tier": "D",
+    "winRate": "45.37%",
+    "rank": "154/170",
+    "pickRate": "2.7%",
+    "banRate": "-",
+    "matches": "17,300"
+  },
+  "Nunu": {
+    "site": "U.GG",
+    "champion": "nunu",
+    "tier": "D",
+    "winRate": "44.95%",
+    "rank": "160/170",
+    "pickRate": "4.2%",
+    "banRate": "-",
+    "matches": "27,366"
+  },
+  "Olaf": {
+    "site": "U.GG",
+    "champion": "olaf",
+    "tier": "A",
+    "winRate": "51.34%",
+    "rank": "57/170",
+    "pickRate": "1.5%",
+    "banRate": "-",
+    "matches": "9,668"
+  },
+  "Orianna": {
+    "site": "U.GG",
+    "champion": "orianna",
+    "tier": "B",
+    "winRate": "49.11%",
+    "rank": "109/170",
+    "pickRate": "7.3%",
+    "banRate": "-",
+    "matches": "47,519"
+  },
+  "Ornn": {
+    "site": "U.GG",
+    "champion": "ornn",
+    "tier": "A",
+    "winRate": "52.14%",
+    "rank": "37/170",
+    "pickRate": "5.1%",
+    "banRate": "-",
+    "matches": "33,273"
+  },
+  "Pantheon": {
+    "site": "U.GG",
+    "champion": "pantheon",
+    "tier": "B",
+    "winRate": "49.53%",
+    "rank": "102/170",
+    "pickRate": "6.8%",
+    "banRate": "-",
+    "matches": "44,303"
+  },
+  "Poppy": {
+    "site": "U.GG",
+    "champion": "poppy",
+    "tier": "A",
+    "winRate": "50.5%",
+    "rank": "76/170",
+    "pickRate": "3.5%",
+    "banRate": "-",
+    "matches": "22,768"
+  },
+  "Pyke": {
+    "site": "U.GG",
+    "champion": "pyke",
+    "tier": "D",
+    "winRate": "44.64%",
+    "rank": "161/170",
+    "pickRate": "8.9%",
+    "banRate": "-",
+    "matches": "57,535"
+  },
+  "Qiyana": {
+    "site": "U.GG",
+    "champion": "qiyana",
+    "tier": "D",
+    "winRate": "43.69%",
+    "rank": "166/170",
+    "pickRate": "2.7%",
+    "banRate": "-",
+    "matches": "17,430"
+  },
+  "Quinn": {
+    "site": "U.GG",
+    "champion": "quinn",
+    "tier": "D",
+    "winRate": "47.4%",
+    "rank": "131/170",
+    "pickRate": "5.4%",
+    "banRate": "-",
+    "matches": "35,050"
+  },
+  "Rakan": {
+    "site": "U.GG",
+    "champion": "rakan",
+    "tier": "B",
+    "winRate": "49.25%",
+    "rank": "107/170",
+    "pickRate": "3.9%",
+    "banRate": "-",
+    "matches": "25,108"
+  },
+  "Rammus": {
+    "site": "U.GG",
+    "champion": "rammus",
+    "tier": "B",
+    "winRate": "50.11%",
+    "rank": "87/170",
+    "pickRate": "1.8%",
+    "banRate": "-",
+    "matches": "11,783"
+  },
+  "RekSai": {
+    "site": "U.GG",
+    "champion": "reksai",
+    "tier": "B",
+    "winRate": "50.59%",
+    "rank": "75/170",
+    "pickRate": "0.8%",
+    "banRate": "-",
+    "matches": "5,056"
+  },
+  "Rell": {
+    "site": "U.GG",
+    "champion": "rell",
+    "tier": "A",
+    "winRate": "52.46%",
+    "rank": "30/170",
+    "pickRate": "2.6%",
+    "banRate": "-",
+    "matches": "16,852"
+  },
+  "Renata": {
+    "site": "U.GG",
+    "champion": "renata",
+    "tier": "A",
+    "winRate": "51.02%",
+    "rank": "65/170",
+    "pickRate": "4.2%",
+    "banRate": "-",
+    "matches": "26,941"
+  },
+  "Renekton": {
+    "site": "U.GG",
+    "champion": "renekton",
+    "tier": "A",
+    "winRate": "50.76%",
+    "rank": "70/170",
+    "pickRate": "4.1%",
+    "banRate": "-",
+    "matches": "26,775"
+  },
+  "Rengar": {
+    "site": "U.GG",
+    "champion": "rengar",
+    "tier": "D",
+    "winRate": "42.64%",
+    "rank": "168/170",
+    "pickRate": "2.4%",
+    "banRate": "-",
+    "matches": "15,313"
+  },
+  "Riven": {
+    "site": "U.GG",
+    "champion": "riven",
+    "tier": "B",
+    "winRate": "48.46%",
+    "rank": "115/170",
+    "pickRate": "3.6%",
+    "banRate": "-",
+    "matches": "23,552"
+  },
+  "Rumble": {
+    "site": "U.GG",
+    "champion": "rumble",
+    "tier": "B",
+    "winRate": "48.41%",
+    "rank": "116/170",
+    "pickRate": "3.3%",
+    "banRate": "-",
+    "matches": "21,446"
+  },
+  "Ryze": {
+    "site": "U.GG",
+    "champion": "ryze",
+    "tier": "C",
+    "winRate": "47.87%",
+    "rank": "129/170",
+    "banRate": "-",
+    "matches": "32,629"
+  },
+  "Samira": {
+    "site": "U.GG",
+    "champion": "samira",
+    "tier": "A",
+    "winRate": "51.75%",
+    "rank": "46/170",
+    "pickRate": "6.2%",
+    "banRate": "-",
+    "matches": "40,434"
+  },
+  "Sejuani": {
+    "site": "U.GG",
+    "champion": "sejuani",
+    "tier": "B",
+    "winRate": "49.7%",
+    "rank": "95/170",
+    "pickRate": "3.1%",
+    "banRate": "-",
+    "matches": "20,296"
+  },
+  "Senna": {
+    "site": "U.GG",
+    "champion": "senna",
+    "tier": "S",
+    "winRate": "51.44%",
+    "rank": "56/170",
+    "pickRate": "11.9%",
+    "banRate": "-",
+    "matches": "76,745"
+  },
+  "Seraphine": {
+    "site": "U.GG",
+    "champion": "seraphine",
+    "tier": "S",
+    "rank": "41/170",
+    "pickRate": "8.2%",
+    "banRate": "-",
+    "matches": "53,168"
+  },
+  "Sett": {
+    "site": "U.GG",
+    "champion": "sett",
+    "tier": "S+",
+    "winRate": "56.33%",
+    "rank": "1/170",
+    "pickRate": "6.8%",
+    "banRate": "-",
+    "matches": "43,916"
+  },
+  "Shaco": {
+    "site": "U.GG",
+    "champion": "shaco",
+    "tier": "D",
+    "winRate": "47.67%",
+    "rank": "130/170",
+    "pickRate": "6.7%",
+    "banRate": "-",
+    "matches": "43,410"
+  },
+  "Shen": {
+    "site": "U.GG",
+    "champion": "shen",
+    "tier": "S",
+    "winRate": "53.61%",
+    "rank": "8/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "28,903"
+  },
+  "Shyvana": {
+    "site": "U.GG",
+    "champion": "shyvana",
+    "tier": "B",
+    "winRate": "46.86%",
+    "rank": "137/170",
+    "pickRate": "1.8%",
+    "banRate": "-",
+    "matches": "11,663"
+  },
+  "Singed": {
+    "site": "U.GG",
+    "champion": "singed",
+    "tier": "B",
+    "winRate": "49.77%",
+    "rank": "94/170",
+    "pickRate": "2.8%",
+    "banRate": "-",
+    "matches": "18,176"
+  },
+  "Sion": {
+    "site": "U.GG",
+    "champion": "sion",
+    "tier": "S",
+    "winRate": "54.02%",
+    "rank": "4/170",
+    "pickRate": "4.6%",
+    "banRate": "-",
+    "matches": "29,957"
+  },
+  "Sivir": {
+    "site": "U.GG",
+    "champion": "sivir",
+    "tier": "S",
+    "winRate": "52.69%",
+    "rank": "23/170",
+    "pickRate": "9.1%",
+    "banRate": "-",
+    "matches": "58,687"
+  },
+  "Skarner": {
+    "site": "U.GG",
+    "champion": "skarner",
+    "tier": "B",
+    "winRate": "46.3%",
+    "rank": "147/170",
+    "pickRate": "1.5%",
+    "banRate": "-",
+    "matches": "9,844"
+  },
+  "Smolder": {
+    "site": "U.GG",
+    "champion": "smolder",
+    "tier": "A",
+    "winRate": "50.23%",
+    "rank": "82/170",
+    "pickRate": "8.9%",
+    "banRate": "-",
+    "matches": "57,526"
+  },
+  "Sona": {
+    "site": "U.GG",
+    "champion": "sona",
+    "tier": "S",
+    "winRate": "53.6%",
+    "rank": "9/170",
+    "pickRate": "6.3%",
+    "banRate": "-",
+    "matches": "40,612"
+  },
+  "Soraka": {
+    "site": "U.GG",
+    "champion": "soraka",
+    "tier": "S",
+    "winRate": "52.35%",
+    "rank": "31/170",
+    "pickRate": "6.9%",
+    "banRate": "-",
+    "matches": "44,899"
+  },
+  "Swain": {
+    "site": "U.GG",
+    "champion": "swain",
+    "tier": "S",
+    "winRate": "52.2%",
+    "rank": "34/170",
+    "pickRate": "7.6%",
+    "banRate": "-",
+    "matches": "49,279"
+  },
+  "Sylas": {
+    "site": "U.GG",
+    "champion": "sylas",
+    "tier": "D",
+    "winRate": "46.85%",
+    "rank": "138/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,931"
+  },
+  "Syndra": {
+    "site": "U.GG",
+    "champion": "syndra",
+    "tier": "C",
+    "winRate": "48.39%",
+    "rank": "117/170",
+    "pickRate": "6.1%",
+    "banRate": "-",
+    "matches": "39,233"
+  },
+  "TahmKench": {
+    "site": "U.GG",
+    "champion": "tahmkench",
+    "tier": "A",
+    "winRate": "50.74%",
+    "rank": "71/170",
+    "pickRate": "5.3%",
+    "banRate": "-",
+    "matches": "34,016"
+  },
+  "Taliyah": {
+    "site": "U.GG",
+    "champion": "taliyah",
+    "tier": "B",
+    "winRate": "48.26%",
+    "rank": "120/170",
+    "pickRate": "3.5%",
+    "banRate": "-",
+    "matches": "22,812"
+  },
+  "Talon": {
+    "site": "U.GG",
+    "champion": "talon",
+    "tier": "D",
+    "winRate": "43.81%",
+    "rank": "165/170",
+    "pickRate": "2.5%",
+    "banRate": "-",
+    "matches": "15,986"
+  },
+  "Taric": {
+    "site": "U.GG",
+    "champion": "taric",
+    "tier": "A",
+    "winRate": "52.01%",
+    "rank": "40/170",
+    "pickRate": "1.9%",
+    "banRate": "-",
+    "matches": "12,580"
+  },
+  "Teemo": {
+    "site": "U.GG",
+    "champion": "teemo",
+    "tier": "A",
+    "winRate": "51.12%",
+    "rank": "61/170",
+    "pickRate": "9.7%",
+    "banRate": "-",
+    "matches": "62,538"
+  },
+  "Thresh": {
+    "site": "U.GG",
+    "champion": "thresh",
+    "tier": "A",
+    "winRate": "51.07%",
+    "rank": "62/170",
+    "pickRate": "10.4%",
+    "banRate": "-",
+    "matches": "67,088"
+  },
+  "Tristana": {
+    "site": "U.GG",
+    "champion": "tristana",
+    "tier": "A",
+    "winRate": "50.68%",
+    "rank": "73/170",
+    "pickRate": "9.9%",
+    "banRate": "-",
+    "matches": "64,261"
+  },
+  "Trundle": {
+    "site": "U.GG",
+    "champion": "trundle",
+    "tier": "A",
+    "winRate": "52.25%",
+    "rank": "33/170",
+    "pickRate": "3.4%",
+    "banRate": "-",
+    "matches": "22,207"
+  },
+  "Tryndamere": {
+    "site": "U.GG",
+    "champion": "tryndamere",
+    "tier": "B",
+    "winRate": "49.66%",
+    "rank": "96/170",
+    "pickRate": "2.9%",
+    "banRate": "-",
+    "matches": "18,562"
+  },
+  "TwistedFate": {
+    "site": "U.GG",
+    "champion": "twistedfate",
+    "tier": "S",
+    "winRate": "52.54%",
+    "rank": "27/170",
+    "pickRate": "8.4%",
+    "banRate": "-",
+    "matches": "54,207"
+  },
+  "Twitch": {
+    "site": "U.GG",
+    "champion": "twitch",
+    "tier": "S",
+    "winRate": "51.81%",
+    "rank": "44/170",
+    "pickRate": "10.3%",
+    "banRate": "-",
+    "matches": "66,652"
+  },
+  "Udyr": {
+    "site": "U.GG",
+    "champion": "udyr",
+    "tier": "B",
+    "winRate": "48.34%",
+    "rank": "118/170",
+    "pickRate": "2.2%",
+    "banRate": "-",
+    "matches": "14,083"
+  },
+  "Urgot": {
+    "site": "U.GG",
+    "champion": "urgot",
+    "tier": "A",
+    "winRate": "50.72%",
+    "rank": "72/170",
+    "banRate": "-",
+    "matches": "25,585"
+  },
+  "Varus": {
+    "site": "U.GG",
+    "champion": "varus",
+    "tier": "S",
+    "winRate": "51.6%",
+    "rank": "50/170",
+    "pickRate": "12.7%",
+    "banRate": "-",
+    "matches": "82,259"
+  },
+  "Vayne": {
+    "site": "U.GG",
+    "champion": "vayne",
+    "tier": "B",
+    "winRate": "49.9%",
+    "rank": "92/170",
+    "banRate": "-",
+    "matches": "64,808"
+  },
+  "Veigar": {
+    "site": "U.GG",
+    "champion": "veigar",
+    "tier": "C",
+    "winRate": "49.27%",
+    "rank": "106/170",
+    "pickRate": "12.2%",
+    "banRate": "-",
+    "matches": "79,241"
+  },
+  "Velkoz": {
+    "site": "U.GG",
+    "champion": "velkoz",
+    "tier": "S",
+    "winRate": "52.48%",
+    "rank": "29/170",
+    "pickRate": "10.6%",
+    "banRate": "-",
+    "matches": "68,310"
+  },
+  "Vex": {
+    "site": "U.GG",
+    "champion": "vex",
+    "tier": "A",
+    "winRate": "51.07%",
+    "rank": "63/170",
+    "pickRate": "5.5%",
+    "banRate": "-",
+    "matches": "35,719"
+  },
+  "Vi": {
+    "site": "U.GG",
+    "champion": "vi",
+    "tier": "C",
+    "winRate": "47.31%",
+    "rank": "132/170",
+    "pickRate": "3.8%",
+    "banRate": "-",
+    "matches": "24,468"
+  },
+  "Viego": {
+    "site": "U.GG",
+    "champion": "viego",
+    "tier": "C",
+    "winRate": "48.34%",
+    "rank": "119/170",
+    "pickRate": "4.8%",
+    "banRate": "-",
+    "matches": "30,895"
+  },
+  "Viktor": {
+    "site": "U.GG",
+    "champion": "viktor",
+    "tier": "A",
+    "rank": "66/170",
+    "pickRate": "6.1%",
+    "banRate": "-",
+    "matches": "39,546"
+  },
+  "Vladimir": {
+    "site": "U.GG",
+    "champion": "vladimir",
+    "tier": "C",
+    "winRate": "47.88%",
+    "rank": "128/170",
+    "pickRate": "4.5%",
+    "banRate": "-",
+    "matches": "29,326"
+  },
+  "Volibear": {
+    "site": "U.GG",
+    "champion": "volibear",
+    "tier": "B",
+    "winRate": "50.17%",
+    "rank": "85/170",
+    "pickRate": "3.7%",
+    "banRate": "-",
+    "matches": "24,047"
+  },
+  "Warwick": {
+    "site": "U.GG",
+    "champion": "warwick",
+    "tier": "B",
+    "winRate": "49.49%",
+    "rank": "103/170",
+    "pickRate": "3.1%",
+    "banRate": "-",
+    "matches": "20,304"
+  },
+  "Xayah": {
+    "site": "U.GG",
+    "champion": "xayah",
+    "tier": "S",
+    "winRate": "51.61%",
+    "rank": "49/170",
+    "pickRate": "9.9%",
+    "banRate": "-",
+    "matches": "64,049"
+  },
+  "Xerath": {
+    "site": "U.GG",
+    "champion": "xerath",
+    "tier": "S",
+    "winRate": "52.08%",
+    "rank": "38/170",
+    "pickRate": "8.5%",
+    "banRate": "-",
+    "matches": "55,074"
+  },
+  "XinZhao": {
+    "site": "U.GG",
+    "champion": "xinzhao",
+    "tier": "A",
+    "winRate": "51.48%",
+    "rank": "53/170",
+    "pickRate": "2.6%",
+    "banRate": "-",
+    "matches": "16,852"
+  },
+  "Yasuo": {
+    "site": "U.GG",
+    "champion": "yasuo",
+    "tier": "S",
+    "winRate": "53.79%",
+    "rank": "5/170",
+    "pickRate": "6.8%",
+    "banRate": "-",
+    "matches": "44,219"
+  },
+  "Yone": {
+    "site": "U.GG",
+    "champion": "yone",
+    "tier": "B",
+    "winRate": "49.59%",
+    "rank": "99/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,655"
+  },
+  "Yorick": {
+    "site": "U.GG",
+    "champion": "yorick",
+    "tier": "A",
+    "winRate": "54.46%",
+    "rank": "2/170",
+    "banRate": "-",
+    "matches": "12,913"
+  },
+  "Yuumi": {
+    "site": "U.GG",
+    "champion": "yuumi",
+    "tier": "A",
+    "winRate": "50.47%",
+    "rank": "78/170",
+    "pickRate": "5.2%",
+    "banRate": "-",
+    "matches": "34,664"
+  },
+  "Zac": {
+    "site": "U.GG",
+    "champion": "zac",
+    "tier": "B",
+    "winRate": "48.78%",
+    "rank": "112/170",
+    "pickRate": "2.7%",
+    "banRate": "-",
+    "matches": "17,584"
+  },
+  "Zed": {
+    "site": "U.GG",
+    "champion": "zed",
+    "tier": "D",
+    "winRate": "45.1%",
+    "rank": "157/170",
+    "pickRate": "7.9%",
+    "banRate": "-",
+    "matches": "50,977"
+  },
+  "Zeri": {
+    "site": "U.GG",
+    "champion": "zeri",
+    "tier": "B",
+    "winRate": "48.78%",
+    "rank": "111/170",
+    "pickRate": "4.2%",
+    "banRate": "-",
+    "matches": "26,976"
+  },
+  "Ziggs": {
+    "site": "U.GG",
+    "champion": "ziggs",
+    "tier": "S",
+    "rank": "42/170",
+    "pickRate": "7.2%",
+    "banRate": "-",
+    "matches": "46,574"
+  },
+  "Zilean": {
+    "site": "U.GG",
+    "champion": "zilean",
+    "tier": "D",
+    "winRate": "47.14%",
+    "rank": "135/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,887"
+  },
+  "Zoe": {
+    "site": "U.GG",
+    "champion": "zoe",
+    "tier": "B",
+    "winRate": "49.62%",
+    "rank": "98/170",
+    "pickRate": "5.5%",
+    "banRate": "-",
+    "matches": "35,345"
+  },
+  "Zyra": {
+    "site": "U.GG",
+    "champion": "zyra",
+    "tier": "S",
+    "winRate": "53.6%",
+    "rank": "10/170",
+    "pickRate": "6.6%",
+    "banRate": "-",
+    "matches": "42,748"
+  }
+}

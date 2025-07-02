@@ -1,0 +1,1022 @@
+{
+  "Aatrox": {
+    "champion": "aatrox",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ahri": {
+    "champion": "ahri",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Akali": {
+    "champion": "akali",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Akshan": {
+    "champion": "akshan",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Alistar": {
+    "champion": "alistar",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Ambessa": {
+    "champion": "ambessa",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Amumu": {
+    "champion": "amumu",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Anivia": {
+    "champion": "anivia",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Annie": {
+    "champion": "annie",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Aphelios": {
+    "champion": "aphelios",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ashe": {
+    "champion": "ashe",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "AurelionSol": {
+    "champion": "aurelionsol",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Aurora": {
+    "champion": "aurora",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Azir": {
+    "champion": "azir",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Bard": {
+    "champion": "bard",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Belveth": {
+    "champion": "belveth",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Blitzcrank": {
+    "champion": "blitzcrank",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Brand": {
+    "champion": "brand",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Braum": {
+    "champion": "braum",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Briar": {
+    "champion": "briar",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Caitlyn": {
+    "champion": "caitlyn",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Camille": {
+    "champion": "camille",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Cassiopeia": {
+    "champion": "cassiopeia",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Chogath": {
+    "champion": "chogath",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Corki": {
+    "champion": "corki",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Darius": {
+    "champion": "darius",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Diana": {
+    "champion": "diana",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Draven": {
+    "champion": "draven",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "DrMundo": {
+    "champion": "drmundo",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ekko": {
+    "champion": "ekko",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Elise": {
+    "champion": "elise",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Evelynn": {
+    "champion": "evelynn",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ezreal": {
+    "champion": "ezreal",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Fiddlesticks": {
+    "champion": "fiddlesticks",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Fiora": {
+    "champion": "fiora",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Fizz": {
+    "champion": "fizz",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Galio": {
+    "champion": "galio",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Gangplank": {
+    "champion": "gangplank",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Garen": {
+    "champion": "garen",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Gnar": {
+    "champion": "gnar",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Gragas": {
+    "champion": "gragas",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Graves": {
+    "champion": "graves",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Gwen": {
+    "champion": "gwen",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Hecarim": {
+    "champion": "hecarim",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Heimerdinger": {
+    "champion": "heimerdinger",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Hwei": {
+    "champion": "hwei",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Illaoi": {
+    "champion": "illaoi",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Irelia": {
+    "champion": "irelia",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ivern": {
+    "champion": "ivern",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Janna": {
+    "champion": "janna",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "JarvanIV": {
+    "champion": "jarvaniv",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Jax": {
+    "champion": "jax",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Jayce": {
+    "champion": "jayce",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Jhin": {
+    "champion": "jhin",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Jinx": {
+    "champion": "jinx",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Kaisa": {
+    "champion": "kaisa",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Kalista": {
+    "champion": "kalista",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Karma": {
+    "champion": "karma",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Karthus": {
+    "champion": "karthus",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Kassadin": {
+    "champion": "kassadin",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Katarina": {
+    "champion": "katarina",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Kayle": {
+    "champion": "kayle",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Kayn": {
+    "champion": "kayn",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Kennen": {
+    "champion": "kennen",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Khazix": {
+    "champion": "khazix",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Kindred": {
+    "champion": "kindred",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Kled": {
+    "champion": "kled",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "KogMaw": {
+    "champion": "kogmaw",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "KSante": {
+    "champion": "ksante",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Leblanc": {
+    "champion": "leblanc",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "LeeSin": {
+    "champion": "leesin",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Leona": {
+    "champion": "leona",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Lillia": {
+    "champion": "lillia",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Lissandra": {
+    "champion": "lissandra",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Lucian": {
+    "champion": "lucian",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Lulu": {
+    "champion": "lulu",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Lux": {
+    "champion": "lux",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Malphite": {
+    "champion": "malphite",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Malzahar": {
+    "champion": "malzahar",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Maokai": {
+    "champion": "maokai",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "MasterYi": {
+    "champion": "masteryi",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Mel": {
+    "champion": "mel",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Milio": {
+    "champion": "milio",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "MissFortune": {
+    "champion": "missfortune",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "MonkeyKing": {
+    "champion": "wukong",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Mordekaiser": {
+    "champion": "mordekaiser",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Morgana": {
+    "champion": "morgana",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Naafiri": {
+    "champion": "naafiri",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nami": {
+    "champion": "nami",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Nasus": {
+    "champion": "nasus",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nautilus": {
+    "champion": "nautilus",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Neeko": {
+    "champion": "neeko",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nidalee": {
+    "champion": "nidalee",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nilah": {
+    "champion": "nilah",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nocturne": {
+    "champion": "nocturne",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Nunu": {
+    "champion": "nunu",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Olaf": {
+    "champion": "olaf",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Orianna": {
+    "champion": "orianna",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Ornn": {
+    "champion": "ornn",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Pantheon": {
+    "champion": "pantheon",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Poppy": {
+    "champion": "poppy",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Pyke": {
+    "champion": "pyke",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Qiyana": {
+    "champion": "qiyana",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Quinn": {
+    "champion": "quinn",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Rakan": {
+    "champion": "rakan",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Rammus": {
+    "champion": "rammus",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "RekSai": {
+    "champion": "reksai",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Rell": {
+    "champion": "rell",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Renata": {
+    "champion": "renata",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Renekton": {
+    "champion": "renekton",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Rengar": {
+    "champion": "rengar",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Riven": {
+    "champion": "riven",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Rumble": {
+    "champion": "rumble",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ryze": {
+    "champion": "ryze",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Samira": {
+    "champion": "samira",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Sejuani": {
+    "champion": "sejuani",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Senna": {
+    "champion": "senna",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Seraphine": {
+    "champion": "seraphine",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Sett": {
+    "champion": "sett",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Shaco": {
+    "champion": "shaco",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Shen": {
+    "champion": "shen",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Shyvana": {
+    "champion": "shyvana",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Singed": {
+    "champion": "singed",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Sion": {
+    "champion": "sion",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Sivir": {
+    "champion": "sivir",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Skarner": {
+    "champion": "skarner",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Smolder": {
+    "champion": "smolder",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Sona": {
+    "champion": "sona",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Soraka": {
+    "champion": "soraka",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Swain": {
+    "champion": "swain",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Sylas": {
+    "champion": "sylas",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Syndra": {
+    "champion": "syndra",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "TahmKench": {
+    "champion": "tahmkench",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Taliyah": {
+    "champion": "taliyah",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Talon": {
+    "champion": "talon",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Taric": {
+    "champion": "taric",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Teemo": {
+    "champion": "teemo",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Thresh": {
+    "champion": "thresh",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Tristana": {
+    "champion": "tristana",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Trundle": {
+    "champion": "trundle",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Tryndamere": {
+    "champion": "tryndamere",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "TwistedFate": {
+    "champion": "twistedfate",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Twitch": {
+    "champion": "twitch",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Udyr": {
+    "champion": "udyr",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Urgot": {
+    "champion": "urgot",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Varus": {
+    "champion": "varus",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Vayne": {
+    "champion": "vayne",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Veigar": {
+    "champion": "veigar",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Velkoz": {
+    "champion": "velkoz",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Vex": {
+    "champion": "vex",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Vi": {
+    "champion": "vi",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Viego": {
+    "champion": "viego",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Viktor": {
+    "champion": "viktor",
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
+  },
+  "Vladimir": {
+    "champion": "vladimir",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Volibear": {
+    "champion": "volibear",
+    "1stSkill": "W",
+    "2ndSkill": "Q",
+    "3rdSkill": "E"
+  },
+  "Warwick": {
+    "champion": "warwick",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Xayah": {
+    "champion": "xayah",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Xerath": {
+    "champion": "xerath",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "XinZhao": {
+    "champion": "xinzhao",
+    "1stSkill": "W",
+    "2ndSkill": "E",
+    "3rdSkill": "Q"
+  },
+  "Yasuo": {
+    "champion": "yasuo",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Yone": {
+    "champion": "yone",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Yorick": {
+    "champion": "yorick",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Yuumi": {
+    "champion": "yuumi",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Zac": {
+    "champion": "zac",
+    "1stSkill": "E",
+    "2ndSkill": "W",
+    "3rdSkill": "Q"
+  },
+  "Zed": {
+    "champion": "zed",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Zeri": {
+    "champion": "zeri",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Ziggs": {
+    "champion": "ziggs",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Zilean": {
+    "champion": "zilean",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
+    "3rdSkill": "E"
+  },
+  "Zoe": {
+    "champion": "zoe",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  },
+  "Zyra": {
+    "champion": "zyra",
+    "1stSkill": "Q",
+    "2ndSkill": "E",
+    "3rdSkill": "W"
+  }
+}
