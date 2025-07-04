@@ -1,3 +1,72 @@
+/* src/index.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1, h2, h3, h4, h5, h6, p {
+    @apply tracking-tight;
+  }
+}
+
+@layer utilities {
+  .cursor-card {
+    position: relative;
+    background: linear-gradient(135deg, rgba(10, 11, 13, 1) 0%, rgba(15, 16, 18, 1) 50%, rgba(10, 11, 13, 1) 100% );
+    border: 1px solid rgba(71, 85, 105, 0.3);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .static-card {
+    position: relative;
+    background: linear-gradient(135deg, rgba(10, 11, 13, 1) 0%, rgba(15, 16, 18, 1) 50%, rgba(10, 11, 13, 1) 100% );
+    border: 1px solid rgba(71, 85, 105, 0.3);
+    border-radius: 1rem; /* 1rem, Tailwind'de rounded-2xl'e denk gelir */
+    overflow: hidden;
+  }
+
+  .cursor-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(90deg, rgba(139, 92, 246, 0.4), rgba(59, 130, 246, 0.4));
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: xor;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .cursor-card:hover::before {
+    opacity: 1;
+  }
+
+  .cursor-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(139, 92, 246, 0.4);
+    box-shadow: 
+      0 20px 25px -5px rgba(0, 0, 0, 0.3),
+      0 10px 10px -5px rgba(0, 0, 0, 0.2),
+      0 0 0 1px rgba(139, 92, 246, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .cursor-card-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+  }
+
+  
+
+}
