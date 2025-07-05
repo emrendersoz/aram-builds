@@ -2,7 +2,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs-extra");
 const path = require("path");
 
-// Rünleri ayrıştırmak için runesReforged.json dosyasını yüklüyoruz.
+// JSON veri yükleyici
+
 let runesReforgedData = [];
 try {
   const runesPath = path.join(__dirname, "../data/runesReforged.json");
@@ -17,7 +18,6 @@ try {
   console.error("runesReforged.json dosyası yüklenirken hata:", error.message);
 }
 
-// Item.json dosyasını yükle (eğer mevcutsa)
 let itemData = null;
 try {
   const itemPath = path.join(__dirname, "../data/item.json");
@@ -33,79 +33,48 @@ try {
  * @param {string} itemId - Item ID'si
  * @returns {boolean} - Starting item ise true
  */
+
+// Starting item kontrolü
+
 function isStartingItem(itemId) {
   if (!itemData || !itemData.data || !itemData.data[itemId]) {
     return false;
   }
+
   const item = itemData.data[itemId];
   const goldCost = item.gold?.total || 0;
-  const bootsIds = [
-    "1001",
-    "3006",
-    "3020",
-    "3047",
-    "3111",
-    "3158",
-    "3009",
-    "3117",
-    "3115",
-  ];
-  if (bootsIds.includes(itemId)) return false;
-  if (item.depth && item.depth >= 3) return false;
   const itemName = (item.name || "").toLowerCase();
+
+  // Özel durum: Boots item'ı 300 gold ise starting sayılır
+  if (itemName === "boots" && goldCost === 300) {
+    return true;
+  }
+
+  // Tüm boots türlerini dışla
   if (
     itemName.includes("boots") ||
     itemName.includes("greaves") ||
-    itemName.includes("treads")
+    itemName.includes("treads") ||
+    itemName.includes("shoes")
   ) {
     return false;
   }
-  if (goldCost <= 500) return true;
-  if (item.from && item.from.length === 1 && goldCost <= 1300) return true;
-  if (!item.from && goldCost <= 1300 && goldCost >= 300) return true;
-  const knownAramStartingItems = [
-    "1036",
-    "1037",
-    "1038",
-    "1027",
-    "1028",
-    "1029",
-    "1031",
-    "1033",
-    "1057",
-    "1052",
-    "1042",
-    "1055",
-    "1054",
-    "1056",
-    "3134",
-    "3133",
-    "3145",
-    "3108",
-    "3067",
-    "3052",
-    "3136",
-    "3155",
-    "3191",
-    "3123",
-    "3916",
-    "4632",
-    "1082",
-    "2003",
-    "2031",
-    "1083",
-    "3340",
-    "3363",
-    "3364",
-  ];
-  return knownAramStartingItems.includes(itemId);
-}
 
+  // 1400 altındaki eşyalar
+  if (goldCost <= 1400) {
+    return true;
+  }
+
+  return false;
+}
 /**
  * Mobalytics sitesinden veri çeker
  * @param {string} championName - Champion adı
  * @returns {Object} - Scraping sonucu
  */
+
+// Mobalytics Scraper
+
 async function scrapeMobalytics(championName) {
   const browser = await puppeteer.launch({
     headless: true,
@@ -118,7 +87,10 @@ async function scrapeMobalytics(championName) {
   );
   await page.setExtraHTTPHeaders({ "Accept-Language": "en-US,en;q=0.9" });
 
-  const formattedName = championName.toLowerCase();
+  const formattedName =
+    championName.toLowerCase() === "wukong"
+      ? "monkeyking"
+      : championName.toLowerCase();
   const url = `https://mobalytics.gg/lol/champions/${formattedName}/aram-builds`;
   console.log(`Scraping için sayfaya gidiliyor: ${url}`);
 
@@ -194,11 +166,9 @@ async function scrapeMobalytics(championName) {
               spells.push(alt);
             }
           }
-          // --> DEĞİŞİKLİK: Yetenekleri (skills) kazıyan blok tamamen kaldırıldı.
         });
       });
 
-      // --> DEĞİŞİKLİK: Dönen objeden 'skills' kaldırıldı.
       return {
         site,
         runes,
@@ -226,7 +196,7 @@ async function scrapeMobalytics(championName) {
 
     console.log(`${championName} için bulunan runes:`, buildData.runes);
     console.log(`${championName} için bulunan spells:`, buildData.spells);
-    // --> DEĞİŞİKLİK: skills için olan console.log kaldırıldı.
+
     console.log(
       `${championName} için bulunan starting items:`,
       buildData.startingItems

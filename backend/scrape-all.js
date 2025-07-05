@@ -53,15 +53,38 @@ function normalizeForMetasrc(championName) {
   return hyphenated;
 }
 
-async function runAllScrapers() {
-  console.log("--- Tam scrape süreci başlatılıyor ---");
+async function runAllScrapers(singleChampion = null) {
+  console.log("--- Scrape süreci başlatılıyor ---");
 
   const championData = require("./data/champion.json");
-  const champions = Object.keys(championData.data);
+  let champions = Object.keys(championData.data);
 
-  console.log(
-    `${champions.length} şampiyon için veri çekme işlemi başlatılıyor...`
-  );
+  // Eğer tek bir şampiyon belirtilmişse, sadece onu kullan
+  if (singleChampion) {
+    // Şampiyon adının doğru yazıldığından emin ol
+    const validChampion = champions.find(
+      (champ) => champ.toLowerCase() === singleChampion.toLowerCase()
+    );
+
+    if (!validChampion) {
+      console.error(
+        `HATA: "${singleChampion}" geçerli bir şampiyon adı değil!`
+      );
+      console.log(
+        "Geçerli şampiyon adları:",
+        champions.slice(0, 10).join(", "),
+        "..."
+      );
+      return;
+    }
+
+    champions = [validChampion];
+    console.log(`Sadece ${validChampion} için veri çekilecek.`);
+  } else {
+    console.log(
+      `${champions.length} şampiyon için veri çekme işlemi başlatılıyor...`
+    );
+  }
 
   const allBuilds = {};
   const allStats = {};
@@ -167,6 +190,9 @@ async function runAllScrapers() {
   // Dosyaları kaydetme işlemleri...
   const buildsOutputPath = path.join(__dirname, "./data/builds.json");
   await fs.writeJson(buildsOutputPath, allBuilds, { spaces: 2 });
+
+  // Stats ve Skills verilerini de kaydet
+
   const statsOutputPath = path.join(__dirname, "./data/stats.json");
   await fs.writeJson(statsOutputPath, allStats, { spaces: 2 });
   const skillsOutputPath = path.join(__dirname, "./data/skills.json");
@@ -174,12 +200,15 @@ async function runAllScrapers() {
 
   console.log(`\n--- Scrape süreci tamamlandı ---`);
   console.log(`Builds verisi şuraya kaydedildi: ${buildsOutputPath}`);
+
   console.log(`Stats verisi şuraya kaydedildi: ${statsOutputPath}`);
   console.log(`Skills verisi şuraya kaydedildi: ${skillsOutputPath}`);
 }
 
 if (require.main === module) {
-  runAllScrapers();
+  // Komut satırından şampiyon adını al
+  const championArg = process.argv[2];
+  runAllScrapers(championArg);
 }
 
 module.exports = { runAllScrapers };

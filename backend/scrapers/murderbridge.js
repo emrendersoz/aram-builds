@@ -2,7 +2,8 @@ const puppeteer = require("puppeteer");
 const fs = require("fs-extra");
 const path = require("path");
 
-// item.json dosyasını yükle
+// 1. JSON VERİ YÜKLEYİCİ
+
 let itemData = null;
 try {
   const itemPath = path.join(__dirname, "../data/item.json");
@@ -24,7 +25,8 @@ try {
   console.warn("RunesReforged.json dosyası yüklenirken hata:", error.message);
 }
 
-// Rune ID'den tree ID bulur
+// 2. RUNE ID ANALİZİ
+
 function findRuneTreeId(runeId) {
   if (!runeId || !runeTreeData) return null;
   for (const tree of runeTreeData) {
@@ -37,78 +39,41 @@ function findRuneTreeId(runeId) {
   return null;
 }
 
-// Starting item olup olmadığını kontrol eder
+// 3. STARTING ITEM KONTROLÜ
+
 function isStartingItem(itemId) {
-  if (!itemData || !itemData.data || !itemData.data[itemId]) return false;
+  if (!itemData || !itemData.data || !itemData.data[itemId]) {
+    return false;
+  }
+
   const item = itemData.data[itemId];
   const goldCost = item.gold?.total || 0;
-
-  const bootsIds = [
-    "1001",
-    "3006",
-    "3020",
-    "3047",
-    "3111",
-    "3158",
-    "3009",
-    "3117",
-    "3115",
-  ];
-  if (bootsIds.includes(itemId)) return false;
-
   const itemName = (item.name || "").toLowerCase();
+
+  // Özel durum: Boots item'ı 300 gold ise starting sayılır
+  if (itemName === "boots" && goldCost === 300) {
+    return true;
+  }
+
+  // Tüm boots türlerini dışla
   if (
     itemName.includes("boots") ||
     itemName.includes("greaves") ||
-    itemName.includes("treads")
+    itemName.includes("treads") ||
+    itemName.includes("shoes")
   ) {
     return false;
   }
 
-  if (item.depth && item.depth >= 3) return false;
+  // 1400 altındaki eşyalar
+  if (goldCost <= 1400) {
+    return true;
+  }
 
-  if (goldCost <= 500) return true;
-  if (item.from && item.from.length === 1 && goldCost <= 1300) return true;
-  if (!item.from && goldCost <= 1300 && goldCost >= 300) return true;
-
-  const knownAramStartingItems = [
-    "1036",
-    "1037",
-    "1038",
-    "1027",
-    "1028",
-    "1029",
-    "1031",
-    "1033",
-    "1057",
-    "1052",
-    "1042",
-    "1055",
-    "1054",
-    "1056",
-    "3134",
-    "3133",
-    "3145",
-    "3108",
-    "3067",
-    "3052",
-    "3136",
-    "3155",
-    "3191",
-    "3123",
-    "3916",
-    "4632",
-    "1082",
-    "2003",
-    "2031",
-    "1083",
-    "3340",
-    "3363",
-    "3364",
-  ];
-
-  return knownAramStartingItems.includes(itemId);
+  return false;
 }
+
+// 4. SCRAPE MURDERBRIDGE
 
 async function scrapeMurderbridge(championName) {
   const browser = await puppeteer.launch({
@@ -137,7 +102,7 @@ async function scrapeMurderbridge(championName) {
     const buildData = await page.evaluate(() => {
       const site = "Murderbridge";
       const rawRunes = [];
-      const spells = [];
+      let spells = [];
       const allItems = [];
 
       // Aktif (gri olmayan) rune ID'lerini topla
@@ -179,6 +144,10 @@ async function scrapeMurderbridge(championName) {
           }
         }
       });
+
+      if (spells.length > 2) {
+        spells = ["4", "32"];
+      }
 
       const itemBuild = document.querySelector(".item-build");
       if (itemBuild) {
@@ -270,6 +239,8 @@ async function scrapeMurderbridge(championName) {
     return { site: "Murderbridge", error: `Veri çekilemedi: ${error.message}` };
   }
 }
+
+// 5. ARAM İÇİN ÖZEL FONKSİYON
 
 async function aram(championName) {
   return await scrapeMurderbridge(championName);

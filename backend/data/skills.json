@@ -583,8 +583,8 @@
   },
   "Orianna": {
     "champion": "orianna",
-    "1stSkill": "W",
-    "2ndSkill": "Q",
+    "1stSkill": "Q",
+    "2ndSkill": "W",
     "3rdSkill": "E"
   },
   "Ornn": {
@@ -788,8 +788,8 @@
   "Syndra": {
     "champion": "syndra",
     "1stSkill": "Q",
-    "2ndSkill": "W",
-    "3rdSkill": "E"
+    "2ndSkill": "E",
+    "3rdSkill": "W"
   },
   "TahmKench": {
     "champion": "tahmkench",
@@ -811,9 +811,9 @@
   },
   "Taric": {
     "champion": "taric",
-    "1stSkill": "Q",
-    "2ndSkill": "W",
-    "3rdSkill": "E"
+    "1stSkill": "E",
+    "2ndSkill": "Q",
+    "3rdSkill": "W"
   },
   "Teemo": {
     "champion": "teemo",
