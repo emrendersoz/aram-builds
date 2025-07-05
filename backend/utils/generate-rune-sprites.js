@@ -1,7 +1,7 @@
 const Spritesmith = require("spritesmith");
 const fs = require("fs-extra");
 const path = require("path");
-const sharp = require("sharp"); // <-- YENİ KÜTÜPHANEMİZ
+const sharp = require("sharp");
 
 async function generateRuneSprites() {
   console.log("Rün sprite oluşturma süreci başlatılıyor...");
@@ -13,7 +13,6 @@ async function generateRuneSprites() {
   await fs.ensureDir(tempImageDir);
   await fs.ensureDir(frontendAssetsDir);
 
-  // 1. Anahtar Taşı olan rünlerin ID'lerini tespit etmeye devam ediyoruz.
   const keystoneIds = new Set();
   runeData.forEach((runePath) => {
     if (runePath.slots[0]) {
@@ -23,7 +22,6 @@ async function generateRuneSprites() {
     }
   });
 
-  // 2. Tüm rünleri tek bir listeye toplayalım.
   const allRunes = [];
   runeData.forEach((runePath) => {
     allRunes.push({ id: runePath.id, icon: runePath.icon });
@@ -34,8 +32,6 @@ async function generateRuneSprites() {
     });
   });
 
-  // --- EN KRİTİK DEĞİŞİKLİK BURADA ---
-  // 3. İndir, YENİDEN BOYUTLANDIR ve kaydet.
   const processPromises = allRunes.map(async (rune) => {
     try {
       const imageUrl = `https://ddragon.leagueoflegends.com/cdn/img/${rune.icon}`;
@@ -46,27 +42,21 @@ async function generateRuneSprites() {
 
       const buffer = await response.arrayBuffer();
 
-      // Rünün türüne göre hedef boyutu belirle
       const targetSize = keystoneIds.has(String(rune.id)) ? 52 : 24;
 
-      // 'sharp' kütüphanesini kullanarak resmi yeniden boyutlandır ve kaydet.
       await sharp(buffer).resize(targetSize, targetSize).toFile(imagePath);
-    } catch (e) {
-      // Hatalı indirmeleri atla
-    }
+    } catch (e) {}
   });
 
   await Promise.all(processPromises);
   console.log("Tüm rün resimleri indirilip standart boyutlara getirildi.");
 
-  // 4. Artık tüm resimler standart boyutta olduğu için, sprite ve CSS oluşturma daha basit olacak.
   const imageFiles = (await fs.readdir(tempImageDir)).map((file) =>
     path.join(tempImageDir, file)
   );
   Spritesmith.run({ src: imageFiles, padding: 2 }, (err, result) => {
     if (err) throw err;
 
-    // Cache-busting için son bir versiyon numarası verelim: -v-final
     const spriteSheetFilename = "rune-sprite.png";
     const cssFilename = "rune-sprite.css";
 
@@ -87,7 +77,7 @@ async function generateRuneSprites() {
     for (const file in result.coordinates) {
       const id = path.basename(file, ".png");
       const { x, y } = result.coordinates[file];
-      const size = keystoneIds.has(id) ? 52 : 24; // Boyutu tekrar ata
+      const size = keystoneIds.has(id) ? 52 : 24;
 
       cssString += `.rune-${id} {
   background-position: -${x}px -${y}px;

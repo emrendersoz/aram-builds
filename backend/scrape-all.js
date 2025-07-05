@@ -45,7 +45,7 @@ function normalizeForMetasrc(championName) {
   }
   // CamelCase (örn: MissFortune) isimlendirmeyi tireli (örn: miss-fortune) hale getirir.
   const hyphenated = championName
-    .replace(/([a-z])([A-Z])/g, "$1-$2") // Küçük harfi takip eden büyük harf arasına tire koy
+    .replace(/([a-z])([A-Z])/g, "$1-$2")
     .toLowerCase()
     .replace(/'/g, "")
     .replace(/\./g, "");
@@ -59,9 +59,7 @@ async function runAllScrapers(singleChampion = null) {
   const championData = require("./data/champion.json");
   let champions = Object.keys(championData.data);
 
-  // Eğer tek bir şampiyon belirtilmişse, sadece onu kullan
   if (singleChampion) {
-    // Şampiyon adının doğru yazıldığından emin ol
     const validChampion = champions.find(
       (champ) => champ.toLowerCase() === singleChampion.toLowerCase()
     );
@@ -91,9 +89,8 @@ async function runAllScrapers(singleChampion = null) {
   const allSkills = {};
 
   for (const championName of champions) {
-    // Genel kullanım için şampiyon adını normalleştir (missfortune)
     const normalizedName = normalizeChampionNameForUrl(championName);
-    // MetaSRC'ye özel şampiyon adını normalleştir (miss-fortune)
+
     const metasrcName = normalizeForMetasrc(championName);
 
     console.log(
@@ -101,7 +98,6 @@ async function runAllScrapers(singleChampion = null) {
     );
     const buildsForChampion = {};
 
-    // --- U.GG, Lolalytics, Mobalytics vb. (Genel formatı kullananlar) ---
     try {
       const uggStatsData = await scrapeUggStats(normalizedName);
       if (uggStatsData && !uggStatsData.error) {
@@ -171,10 +167,7 @@ async function runAllScrapers(singleChampion = null) {
         `- HATA: Mobalytics için (${championName}): ${error.message}`
       );
     }
-
-    // --- MetaSRC Scraper (Özel formatı kullanan) ---
     try {
-      // MetaSRC için özel olarak formatlanmış adı kullan
       const metasrcData = await scrapeMetasrc(metasrcName);
       if (metasrcData && !metasrcData.error) {
         buildsForChampion.metasrc_aram = metasrcData;
@@ -187,11 +180,8 @@ async function runAllScrapers(singleChampion = null) {
     allBuilds[championName] = buildsForChampion;
   }
 
-  // Dosyaları kaydetme işlemleri...
   const buildsOutputPath = path.join(__dirname, "./data/builds.json");
   await fs.writeJson(buildsOutputPath, allBuilds, { spaces: 2 });
-
-  // Stats ve Skills verilerini de kaydet
 
   const statsOutputPath = path.join(__dirname, "./data/stats.json");
   await fs.writeJson(statsOutputPath, allStats, { spaces: 2 });
@@ -206,7 +196,6 @@ async function runAllScrapers(singleChampion = null) {
 }
 
 if (require.main === module) {
-  // Komut satırından şampiyon adını al
   const championArg = process.argv[2];
   runAllScrapers(championArg);
 }

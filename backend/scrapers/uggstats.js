@@ -1,4 +1,3 @@
-// scrapers/uggstats.js
 const puppeteer = require("puppeteer");
 
 async function scrapeUggStats(championName) {
@@ -11,7 +10,6 @@ async function scrapeUggStats(championName) {
 
   const page = await browser.newPage();
 
-  // User agent ekle (bot detection'ı önlemek için)
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
   );
@@ -20,7 +18,6 @@ async function scrapeUggStats(championName) {
     console.log(`Stats için sayfa açılıyor: ${url}`);
     await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
 
-    // Sayfanın tamamen yüklenmesi için bekle
     await new Promise((resolve) => setTimeout(resolve, 5000));
 
     const statsData = await page.evaluate(() => {

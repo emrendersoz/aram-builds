@@ -1,4 +1,3 @@
-// scrapers/uggskills.js
 const puppeteer = require("puppeteer");
 
 async function scrapeUggSkills(championName) {
@@ -11,7 +10,6 @@ async function scrapeUggSkills(championName) {
 
   const page = await browser.newPage();
 
-  // User agent ekle (bot detection'ı önlemek için)
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
   );
@@ -20,7 +18,6 @@ async function scrapeUggSkills(championName) {
     console.log(`Skills için sayfa açılıyor: ${url}`);
     await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
 
-    // Sayfanın tamamen yüklenmesi için bekle
     await new Promise((resolve) => setTimeout(resolve, 5000));
 
     const skillsData = await page.evaluate((championName) => {
@@ -32,7 +29,6 @@ async function scrapeUggSkills(championName) {
       };
 
       try {
-        // Skill Priority bölümünü bul
         const skillPrioritySection = document.querySelector(
           ".content-section_content.skill-priority"
         );
@@ -42,7 +38,6 @@ async function scrapeUggSkills(championName) {
           return results;
         }
 
-        // Skill priority path içindeki skill labelları al
         const skillLabels = skillPrioritySection.querySelectorAll(
           ".skill-label.bottom-center"
         );

@@ -6,7 +6,6 @@ async function downloadFile(url, dest) {
   return new Promise((resolve, reject) => {
     https
       .get(url, (response) => {
-        // Yönlendirmeleri takip et
         if (
           response.statusCode >= 300 &&
           response.statusCode < 400 &&

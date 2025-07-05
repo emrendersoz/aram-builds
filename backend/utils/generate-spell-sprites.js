@@ -5,7 +5,6 @@ const path = require("path");
 async function generateSpellSprites() {
   console.log("Sihirdar Büyüsü sprite oluşturma süreci başlatılıyor...");
 
-  // En güncel versiyonu çekiyoruz
   const versionsResponse = await fetch(
     "https://ddragon.leagueoflegends.com/api/versions.json"
   );
@@ -30,7 +29,7 @@ async function generateSpellSprites() {
   const downloadPromises = Object.values(summonerData.data).map(
     async (spell) => {
       const imageUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/spell/${spell.image.full}`;
-      // Dosya adını spell ID'si ile kaydediyoruz, spell adı ile değil. Bu önemli.
+
       const imagePath = path.join(tempImageDir, `${spell.key}.png`);
 
       try {
@@ -73,30 +72,23 @@ async function generateSpellSprites() {
       `Spell sprite sheet başarıyla şuraya kaydedildi: ${spriteSheetPath}`
     );
 
-    // Sprite sheet'in toplam boyutlarını alıyoruz
     const spriteWidth = result.properties.width;
     const spriteHeight = result.properties.height;
 
-    // Hedef spell boyutu
     const targetSpellSize = 36;
 
-    // Orijinal spell boyutunu hesaplıyoruz (genelde League of Legends spell'leri 64x64)
-    // İlk görüntünün boyutunu alarak orijinal boyutu tespit ediyoruz
     const firstImageKey = Object.keys(result.coordinates)[0];
     const firstImageCoords = result.coordinates[firstImageKey];
-    const originalSpellSize = firstImageCoords.width; // veya height, kare oldukları için aynı
+    const originalSpellSize = firstImageCoords.width;
 
-    // Ölçekleme oranını hesaplıyoruz
     const scaleX = (spriteWidth * targetSpellSize) / spriteWidth;
     const scaleY = (spriteHeight * targetSpellSize) / spriteHeight;
 
-    // Doğru background-size hesaplaması
     const scaledSpriteWidth =
       (spriteWidth * targetSpellSize) / originalSpellSize;
     const scaledSpriteHeight =
       (spriteHeight * targetSpellSize) / originalSpellSize;
 
-    // CSS string'ini düzeltilmiş background-size ile oluşturuyoruz
     let cssString = `.spell-sprite { 
   background-image: url('./spell-sprite.png'); 
   background-repeat: no-repeat; 
@@ -111,7 +103,6 @@ async function generateSpellSprites() {
       const id = path.basename(file, ".png");
       const { x, y } = result.coordinates[file];
 
-      // Position'ları da ölçeklendiriyoruz
       const scaledX = (x * targetSpellSize) / originalSpellSize;
       const scaledY = (y * targetSpellSize) / originalSpellSize;
 
