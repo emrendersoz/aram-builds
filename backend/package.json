@@ -1,24 +1,14 @@
 {
-  "name": "lol-build-aggregator-backend",
+  "name": "aram-builds-worker",
   "version": "1.0.0",
-  "description": "Backend for LoL Build Aggregator",
-  "main": "server.js",
+  "description": "Cloudflare Worker for LoL Build Aggregator",
+  "main": "worker.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
-    "scrape": "node scrape-all.js"
-  },
-  "dependencies": {
-    "axios": "^1.5.0",
-    "cheerio": "^1.0.0-rc.12",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "puppeteer": "^21.3.6"
+    "build": "node utils/convert-json-to-js.js",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
   },
   "devDependencies": {
-    "spritesmith": "^3.5.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "wrangler": "^3.0.0"
   }
 }
