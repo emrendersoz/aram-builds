@@ -1,13 +1,12 @@
-// src/components/ChampionHero.jsx
-
 import React from 'react';
 import SkillIcon from './SkillIcon';
+import { getChampionDisplayName } from '../utils/championNames';
 
 const ArrowIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24" height="24"
-    viewBox="0 0 24"
+    viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
     strokeWidth="2"
@@ -20,11 +19,18 @@ const ArrowIcon = () => (
   </svg>
 );
 
-const ChampionHero = ({ championName, latestVersion, skills }) => {
-  if (!championName || !latestVersion) {
+const ChampionHero = ({ championName, latestVersion, skills, spellIds }) => {
+  
+  if (!championName) {
     return (
-      <div className="text-center h-[340px] flex flex-col justify-center">
-        <h1 className="text-5xl font-bold max-w-4xl mx-auto tracking-tight">
+      <div className="text-center mt-16">
+        <h1 className="text-5xl font-bold text-foreground mb-4">
+          ARAM Build Aggregator
+        </h1>
+        <p className="text-xl text-foreground/60 mb-8">
+          Şampiyon Build'lerini Keşfet
+        </p>
+        <h1 className="text-5xl font-bold text-foreground mb-4">
           Şampiyon Build'lerini Keşfet
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-foreground/80">
@@ -37,7 +43,13 @@ const ChampionHero = ({ championName, latestVersion, skills }) => {
   const splashUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${championName}_0.jpg?cb=${championName}`;
   const squareUrl = `https://ddragon.leagueoflegends.com/cdn/${latestVersion}/img/champion/${championName}.png`;
 
-  const skillOrder = skills ? [skills["1stSkill"], skills["2ndSkill"], "W"] : [];
+
+  console.log('ChampionHero - Skills data:', skills);
+  
+  const skillOrder = skills ? [skills["1stSkill"], skills["2ndSkill"], skills["3rdSkill"]].filter(skill => skill) : [];
+  
+ 
+  console.log('ChampionHero - Skill order:', skillOrder);
 
   return (
     <div className="relative w-full h-[340px] rounded-lg overflow-hidden">
@@ -45,7 +57,7 @@ const ChampionHero = ({ championName, latestVersion, skills }) => {
       {/* Splash Art */}
       <img 
         src={splashUrl}
-        alt={`${championName} Splash Art`}
+        alt={`${getChampionDisplayName(championName)} Splash Art`}
         className="absolute inset-0 w-full h-full object-cover object-[center_20%]"
       />
 
@@ -59,23 +71,24 @@ const ChampionHero = ({ championName, latestVersion, skills }) => {
         <div className="flex items-end gap-5">
           <img 
             src={squareUrl}
-            alt={championName}
+            alt={getChampionDisplayName(championName)}
             className="w-24 h-24 rounded-md border-2 border-foreground/30 shadow-2xl"
           />
           <h1 className="text-3xl font-bold text-foreground" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.7)' }}>
-            {championName} 
+            {getChampionDisplayName(championName)}
           </h1>
         </div>
         
         {/* Sağ: Skill sırası */}
         {skillOrder.length > 0 && (
-          <div className="flex items-center gap-2 bg-black/30 backdrop-blur-sm p-2 rounded-lg">
-            {skillOrder.map((skillKey, index) => (
-              <React.Fragment key={skillKey}>
-                <SkillIcon 
+          <div className="flex items-center gap-3">
+            {skillOrder.map((skill, index) => (
+              <React.Fragment key={index}>
+                <SkillIcon
                   championName={championName}
-                  skillKey={skillKey}
+                  skillKey={skill}
                   latestVersion={latestVersion}
+                  spellIds={spellIds}
                 />
                 {index < skillOrder.length - 1 && <ArrowIcon />}
               </React.Fragment>

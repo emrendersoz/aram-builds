@@ -1,13 +1,9 @@
-// components/BuildDisplay.jsx (YENİ VE TEK COMPONENT)
-
 import React from 'react';
 import ItemIcon from './ItemIcon';
 import RuneIcon from './RuneIcon';
 import SpellIcon from './SpellIcon';
 
 const BuildDisplay = ({ buildData }) => {
-  // Hata durumu veya veri yoksa, özel bir kart göster.
-  // Bu kontrol App.jsx'te yapılıyor ama burada da olması iyidir.
   if (!buildData || buildData.error) {
     return (
       <div className="bg-gray-900 rounded-lg p-4 shadow-xl border border-gray-700">
@@ -17,16 +13,14 @@ const BuildDisplay = ({ buildData }) => {
     );
   }
 
-  // --- RÜN GÖSTERİMİ İÇİN VERİYİ HAZIRLAMA ---
-  // buildData.runes nesnesini tek bir diziye dönüştür
+
   const runesToShow = buildData.runes ? [
     ...(buildData.runes.primary || []),
     ...(buildData.runes.keystone || []),
     ...(buildData.runes.secondary || []),
   ] : [];
 
-  // --- EŞYA GÖSTERİMİ İÇİN KOŞUL BELİRLEME ---
-  // Veride eşya seçenekleri var mı diye kontrol et
+ 
   const hasItemOptions = 
     (buildData.item4Options?.length > 0) ||
     (buildData.item5Options?.length > 0) ||
@@ -57,7 +51,6 @@ const BuildDisplay = ({ buildData }) => {
                 {runesToShow.map((runeId, index) => (
                   <React.Fragment key={`rune-${runeId}-${index}`}>
                     <RuneIcon runeId={runeId} />
-                    {/* Keystone'dan sonra bir ayraç ekle */}
                     {index === 1 && <div className="w-px h-6 bg-gray-600 mx-1"></div>}
                   </React.Fragment>
                 ))}
@@ -79,7 +72,6 @@ const BuildDisplay = ({ buildData }) => {
 
         {/* --- KOŞULLU EŞYA GÖSTERİMİ --- */}
         {hasItemOptions ? (
-          // EĞER SEÇENEKLER VARSA (U.GG, Lolalytics vb.)
           <>
             {buildData.coreItems?.length > 0 && (
               <div>

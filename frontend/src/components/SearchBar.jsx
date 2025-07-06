@@ -1,9 +1,9 @@
 import React from 'react';
 
 const SearchBar = ({ searchTerm, setSearchTerm, onSearch }) => {
-  // Formun gönderilmesi (Enter'a basılması) arama işlemini tetikleyecek.
+
   const handleSubmit = (event) => {
-    event.preventDefault(); // Sayfanın yeniden yüklenmesini engelle
+    event.preventDefault(); 
     onSearch();
   };
 

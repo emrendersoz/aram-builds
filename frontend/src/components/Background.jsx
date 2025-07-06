@@ -1,9 +1,6 @@
-// src/components/Background.jsx
-
 const Background = () => {
   return (
     <div
-      // YENİ ANİMASYON CLASS'IMIZI BURAYA EKLİYORUZ
       className="fixed inset-0 -z-10 animate-background-pulse"
       style={{
         backgroundColor: 'rgb(10, 11, 13)',

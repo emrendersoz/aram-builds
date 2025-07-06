@@ -1,5 +1,3 @@
-/* src/index.css */
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,7 +26,7 @@
     position: relative;
     background: linear-gradient(135deg, rgba(10, 11, 13, 1) 0%, rgba(15, 16, 18, 1) 50%, rgba(10, 11, 13, 1) 100% );
     border: 1px solid rgba(71, 85, 105, 0.3);
-    border-radius: 1rem; /* 1rem, Tailwind'de rounded-2xl'e denk gelir */
+    border-radius: 1rem;
     overflow: hidden;
   }
 

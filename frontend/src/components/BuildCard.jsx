@@ -1,5 +1,3 @@
-// src/components/BuildCard.jsx
-
 import React from 'react';
 import ItemIcon from './ItemIcon';
 import RuneIcon from './RuneIcon';
@@ -13,7 +11,6 @@ const OrSeparatorIcon = () => (
 
 const PinIcon = ({ pinned, onClick }) => {
   return pinned ? (
-    // Solid (Dolu) kalp
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
@@ -24,7 +21,6 @@ const PinIcon = ({ pinned, onClick }) => {
       <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6 3.99 4 6.5 4c1.74 0 3.41 1 4.5 2.5 1.09-1.5 2.76-2.5 4.5-2.5C20 4 22 6 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
     </svg>
   ) : (
-    // Outline (Boş) kalp
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -55,10 +51,8 @@ const BuildCard = ({ build, className = "", isPinned = false, onTogglePin }) => 
 
   return (
     <div className={`cursor-card relative ${isPinned ? 'ring-2 ring-accent' : ''} ${className} w-full mx-auto`}>
-      {/* Pin butonu */}
       <button
         onClick={onTogglePin}
-        // Butonu diğer tüm katmanların üzerine çıkarmak için z-10 ekliyoruz.
         className="absolute top-3 right-3 p-1 rounded z-10 hover:bg-white/5 transition-colors"
         title={isPinned ? "Unpin this build" : "Pin this build"}
         type="button"
@@ -67,10 +61,9 @@ const BuildCard = ({ build, className = "", isPinned = false, onTogglePin }) => 
         <PinIcon pinned={isPinned} />
       </button>
 
-      {/* İçerik div'i (z-index: 1 ile) artık butonun altında kalacak */}
       <div className="cursor-card-content p-6">
         <h3 className="text-xl font-bold text-accent mb-6">{build.site}</h3>
-        {/* ... kartın geri kalan tüm içeriği tamamen aynı, değişiklik yok ... */}
+
         <div className="flex flex-col gap-y-4">
           <div className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr_auto_1fr] gap-x-4 items-start">
 
