@@ -225,27 +225,32 @@ function App() {
   useEffect(() => {
     const fetchGameData = async () => {
       try {
-        const [versionRes, buildsRes, skillsRes, statsRes] = await Promise.all([
-          fetch('https://ddragon.leagueoflegends.com/api/versions.json'),
-          fetch('http://localhost:3001/api/builds'),
-          fetch('http://localhost:3001/api/skills'),
-          fetch('http://localhost:3001/api/stats'),
-        ]);
-        const [versions, builds, skills, stats] = await Promise.all([
-          versionRes.json(),
-          buildsRes.json(),
-          skillsRes.json(),
-          statsRes.json(),
-        ]);
-        setLatestVersion(versions[0]);
-        setAllBuildsData(builds);
-        setAllSkillsData(skills);
-        setAllStatsData(stats);
-      } catch (error) {
-        console.error('Ana veriler çekilemedi:', error);
-      }
-    };
-    fetchGameData();
+      // Render.com'daki backend URL'inizi buraya yazın
+      const baseURL = import.meta.env.MODE === 'production' 
+        ? 'https://aram-builds.onrender.com' 
+        : 'http://localhost:3001';
+        
+      const [versionRes, buildsRes, skillsRes, statsRes] = await Promise.all([
+        fetch('https://ddragon.leagueoflegends.com/api/versions.json'),
+        fetch(`${baseURL}/api/builds`),
+        fetch(`${baseURL}/api/skills`),
+        fetch(`${baseURL}/api/stats`),
+      ]);
+      const [versions, builds, skills, stats] = await Promise.all([
+        versionRes.json(),
+        buildsRes.json(),
+        skillsRes.json(),
+        statsRes.json(),
+      ]);
+      setLatestVersion(versions[0]);
+      setAllBuildsData(builds);
+      setAllSkillsData(skills);
+      setAllStatsData(stats);
+    } catch (error) {
+      console.error('Ana veriler çekilemedi:', error);
+    }
+  };
+  fetchGameData();
   }, []);
 
   useEffect(() => {

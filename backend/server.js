@@ -1,88 +1,81 @@
 const express = require("express");
-const cron = require("node-cron");
-const path = require("path");
 const cors = require("cors");
 const fs = require("fs");
-const { runAllScrapers } = require("./scrape-all");
+const path = require("path");
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
-app.use(cors());
+// CORS ayarları
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:3000",
+      "https://emrendersoz.github.io",
+    ],
+    credentials: true,
+  })
+);
 
-const buildsPath = path.join(__dirname, "data", "builds.json");
+app.use(express.json());
 
+// Health check endpoint
+app.get("/health", (req, res) => {
+  res.json({ status: "OK", timestamp: new Date().toISOString() });
+});
+
+// API endpoints
 app.get("/api/builds", (req, res) => {
-  if (require("fs").existsSync(buildsPath)) {
-    res.sendFile(buildsPath);
-  } else {
-    res.status(404).json({
-      message:
-        "Builds dosyası henüz oluşturulmadı. Lütfen ilk scrape işleminin tamamlanmasını bekleyin.",
-    });
+  try {
+    const buildsPath = path.join(__dirname, "data", "builds.json");
+    if (!fs.existsSync(buildsPath)) {
+      return res.status(404).json({ error: "Builds data not found" });
+    }
+    const builds = JSON.parse(fs.readFileSync(buildsPath, "utf8"));
+    res.json(builds);
+  } catch (error) {
+    console.error("Error reading builds:", error);
+    res.status(500).json({ error: "Failed to read builds data" });
   }
 });
 
 app.get("/api/skills", (req, res) => {
-  const filePath = path.join(__dirname, "data", "skills.json");
-
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      console.error("skills.json dosyası okunurken hata:", err);
-      return res.status(500).send("Sunucuda bir hata oluştu.");
+  try {
+    const skillsPath = path.join(__dirname, "data", "skills.json");
+    if (!fs.existsSync(skillsPath)) {
+      return res.status(404).json({ error: "Skills data not found" });
     }
-    res.json(JSON.parse(data));
-  });
+    const skills = JSON.parse(fs.readFileSync(skillsPath, "utf8"));
+    res.json(skills);
+  } catch (error) {
+    console.error("Error reading skills:", error);
+    res.status(500).json({ error: "Failed to read skills data" });
+  }
 });
 
 app.get("/api/stats", (req, res) => {
-  const filePath = path.join(__dirname, "data", "stats.json");
-
-  if (!fs.existsSync(filePath)) {
-    return res.status(404).json({
-      message:
-        "Stats dosyası henüz oluşturulmadı. Lütfen ilk scrape işleminin tamamlanmasını bekleyin.",
-    });
+  try {
+    const statsPath = path.join(__dirname, "data", "stats.json");
+    if (!fs.existsSync(statsPath)) {
+      return res.status(404).json({ error: "Stats data not found" });
+    }
+    const stats = JSON.parse(fs.readFileSync(statsPath, "utf8"));
+    res.json(stats);
+  } catch (error) {
+    console.error("Error reading stats:", error);
+    res.status(500).json({ error: "Failed to read stats data" });
   }
+});
 
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      console.error("stats.json dosyası okunurken hata:", err);
-      return res.status(500).json({
-        message: "Sunucuda bir hata oluştu.",
-        error: err.message,
-      });
-    }
-
-    try {
-      const parsedData = JSON.parse(data);
-      res.json(parsedData);
-    } catch (parseErr) {
-      console.error("JSON parse hatası:", parseErr);
-      return res.status(500).json({
-        message: "Stats verisi parse edilemedi.",
-        error: parseErr.message,
-      });
-    }
+// Root endpoint
+app.get("/", (req, res) => {
+  res.json({
+    message: "LoL Build Aggregator API",
+    endpoints: ["/api/builds", "/api/skills", "/api/stats", "/health"],
   });
 });
 
-console.log(
-  "Sunucu başlangıcında ilk scrape işlemi çalıştırılıyor...(çalıştırılmıyor çünkü yorum satırına alındı)"
-);
-
-cron.schedule("0 */4 * * *", () => {
-  console.log("-------------------------------------");
-  console.log("Zamanlanmış 4 saatlik scrape işlemi başlatılıyor...");
-  runAllScrapers();
-});
-
 app.listen(PORT, () => {
-  console.log(`Backend sunucusu http://localhost:${PORT} adresinde çalışıyor.`);
-  console.log(
-    `Build verilerine http://localhost:${PORT}/api/builds adresinden ulaşılabilir.`
-  );
-  console.log(
-    `Stats verilerine http://localhost:${PORT}/api/stats adresinden ulaşılabilir.`
-  );
+  console.log(`Server running on port ${PORT}`);
 });

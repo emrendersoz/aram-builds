@@ -1,24 +1,24 @@
 {
-  "name": "backend",
+  "name": "lol-build-aggregator-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Backend for LoL Build Aggregator",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "scrape": "node scrape-all.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "fs-extra": "^11.3.0",
-    "node-cron": "^4.1.1",
-    "puppeteer": "^24.11.1",
-    "react-router-dom": "^7.6.3",
-    "sharp": "^0.34.2"
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.6"
   },
   "devDependencies": {
     "spritesmith": "^3.5.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }

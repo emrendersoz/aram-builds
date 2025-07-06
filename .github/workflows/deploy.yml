@@ -1,9 +1,13 @@
-name: Deploy Vite App to GitHub Pages
+name: Deploy Frontend to GitHub Pages
 
 on:
   push:
     branches:
       - main
+    paths:
+      - "frontend/**"
+      - "backend/data/**" # Data değiştiğinde de deploy et
+  workflow_dispatch: # Manuel tetikleme
 
 permissions:
   contents: read
@@ -38,6 +42,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          NODE_ENV: production
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
