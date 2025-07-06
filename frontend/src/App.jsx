@@ -376,7 +376,7 @@ function App() {
 };
 
 const AppWrapper = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/aram-builds">
     <App />
   </BrowserRouter>
 );
