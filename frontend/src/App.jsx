@@ -227,7 +227,7 @@ function App() {
       try {
       // Render.com'daki backend URL'inizi buraya yazın
       const baseURL = import.meta.env.MODE === 'production' 
-        ? 'https://aram-builds.onrender.com' 
+        ? 'https://6d8bdef6-aram-builds.emrendersoz.workers.dev/' 
         : 'http://localhost:3001';
         
       const [versionRes, buildsRes, skillsRes, statsRes] = await Promise.all([
