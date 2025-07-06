@@ -1,0 +1,16 @@
+{
+  "name": "ARAM Builds",
+  "short_name": "ARAM Builds",
+  "description": "League of Legends ARAM Build Aggregator",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1e293b",
+  "background_color": "#0a0b0d",
+  "icons": [
+    {
+      "src": "/map_howling_abyss_v3.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    }
+  ]
+}
