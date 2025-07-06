@@ -1,4 +1,4 @@
-name = "aram-builds-api"
+name = "aram-builds"
 main = "worker.js"
 compatibility_date = "2023-12-01"
 
