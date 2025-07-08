@@ -145,7 +145,7 @@ if (!hasSearchedBefore) {
               ) : (
                 !selectedChampionName && (
                   <p className="text-foreground/50 mt-8">
-                    Lütfen bir şampiyon arayın.
+                    Lütfen bir şampiyon ara.
                   </p>
                 )
               )}
